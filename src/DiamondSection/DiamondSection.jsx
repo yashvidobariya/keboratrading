@@ -4,8 +4,27 @@ import diamondsection from "../Image/14.jpeg";
 import diamondsection13 from "../Image/13.jpeg";
 import keboraImage from "../Image/17.jpeg";
 import logoImage from "../Image/16.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const DiamondSection = () => {
+  const navigate = useNavigate();
+
+  const handlekoberaDaimond = () => {
+    navigate("/kebora-diamond");
+  };
+
+  const handleKeboraMachine = () => {
+    navigate("/kebora-machines");
+  };
+
+  const handleKeboraGas = () => {
+    navigate("/kebora-gas-supply");
+  };
+
+  const handleKeboraFinance = () => {
+    navigate("/kebora-finance");
+  };
+
   return (
     <>
       <div className="diamond-section">
@@ -38,7 +57,7 @@ const DiamondSection = () => {
             </li>
           </ul>
           <div className="diamondsection-button">
-            <button>Learn more</button>
+            <button onClick={handlekoberaDaimond}>Learn more</button>
           </div>
         </div>
       </div>
@@ -67,7 +86,7 @@ const DiamondSection = () => {
             </li>
           </ul>
           <div className="kebora-button-flex">
-            <button>Learn more</button>
+            <button onClick={handleKeboraMachine}>Learn more</button>
           </div>
         </div>
         <div className="kebora-image">
@@ -102,7 +121,7 @@ const DiamondSection = () => {
             </li>
           </ul>
           <div className="kebora-button-flex">
-            <a className="btn" href="#">
+            <a className="btn" onClick={handleKeboraGas}>
               Learn more
             </a>
           </div>
@@ -129,7 +148,9 @@ const DiamondSection = () => {
             </li>
           </ul>
           <div className="kebora-button-flex">
-            <button className="learn-more">Learn more</button>
+            <button className="learn-more" onClick={handleKeboraFinance}>
+              Learn more
+            </button>
           </div>
         </div>
         <div className="kebora-image">
