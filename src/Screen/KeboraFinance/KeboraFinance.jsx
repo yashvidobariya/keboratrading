@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import img16 from "../../Image/16.jpeg";
-import img22 from "../../Image/7.jpeg";
+import { IoMail, IoCall, IoLocationSharp } from "react-icons/io5";
 import emailjs from "@emailjs/browser";
 import img8 from "../../Image/8.jpeg";
 import img7 from "../../Image/7.jpeg";
@@ -321,11 +321,15 @@ const KeboraFinance = () => {
           <p>For bookings, support, or questions about our services:</p>
           <div className="contact-details">
             <div>
-              📧{" "}
+              <IoMail />{" "}
               <a href="mailto:keboraoxygen@gmail.com">keboraoxygen@gmail.com</a>
             </div>
-            <div>📞 support@keborafinance.com</div>
-            <div>📍 Freetown & Koidu, Sierra Leone</div>
+            <div>
+              <IoCall /> support@keborafinance.com
+            </div>
+            <div>
+              <IoLocationSharp /> Freetown & Koidu, Sierra Leone
+            </div>
             <p>Follow us on: Facebook | Instagram | WhatsApp Business</p>
             <p>
               Kebora Finance Services — Because your money should work for you.
