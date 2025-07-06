@@ -1,0 +1,522 @@
+.keboragassupply {
+  margin: 40px 120px;
+}
+
+.gas-side-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--content-color);
+  text-orientation: mixed;
+  display: flex;
+  position: sticky !important;
+  top: 0;
+  align-items: center;
+}
+
+.diamond-flex-gas {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.diamond-flex-gas img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 240px);
+  height: 70%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+.gas-content {
+  position: relative !important;
+}
+
+.gas-side-header .line {
+  display: inline-block;
+  border-left: 2px solid var(--button-color);
+  height: max-content;
+  padding: 0 5px;
+  line-height: 1.4;
+  margin-right: 8px;
+}
+
+.gas-main-content {
+  /* flex: 1 2; */
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 40px; */
+  max-width: 900px;
+}
+
+.gas-main-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--content-color);
+  margin: 15px 0;
+}
+
+.gas-kebora-section li {
+  line-height: 1.6;
+}
+
+.gas-kebora-section {
+  padding-left: 10px;
+}
+
+.gas-main-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gas-main-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--contnet-color);
+}
+
+.gas-supply-container-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* background-color: #e6e6e8; */
+  padding: 40px 120px;
+  gap: 40px;
+  /* background-color: #e9eaec; */
+  gap: 40px;
+}
+
+.gas-second-content ol {
+  padding-left: 20px;
+}
+
+.gas-diamond-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 80px 120px;
+  gap: 40px;
+}
+
+.gas-image-container {
+  flex: 1;
+  max-width: 500px;
+}
+
+.gas-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.gas-text-container {
+  flex: 1;
+  max-width: 600px;
+}
+
+.gas-text-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0px;
+  color: var(--content-color);
+}
+
+.gas-text-container ul {
+  list-style-type: disc;
+  padding-left: 16px;
+  text-align: left;
+}
+
+.gas-image-container p,
+.gas-text-container p {
+  margin: 10px;
+  line-height: 1.6;
+}
+
+.gas-text-container button {
+  background-color: var(--button-color);
+  color: var(--background-color);
+  padding: 14px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-top: 1 0px;
+}
+
+.gas-text-container button:hover {
+  background-color: var(--h1-color);
+}
+
+.gas-text-container li {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--content-color);
+}
+
+.gas-diamond-flex-gas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gas-diamond-flex-gas img {
+  width: 100%;
+}
+
+.gas-content-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 120px;
+  align-items: flex-start;
+  gap: 120px;
+  /* flex-wrap: wrap; */
+}
+
+.gas-first-content {
+  width: calc(100% - 550px);
+  position: sticky;
+  top: 20px;
+}
+
+.gas-second-content {
+  width: calc(100% - 350px);
+}
+
+.gas-first-content li {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.gas-second-content img {
+  width: 100%;
+}
+
+.gas-second-content li {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.gas-second-content ul,
+.gas-first-content ul {
+  padding-left: 20px;
+}
+
+.gas-second-content h3 {
+  font-size: 24px;
+}
+
+.gas-first-content h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.gas-second-content p {
+  line-height: 1.6;
+}
+
+.gas-second-content h4 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.gas-main-content p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.ul-info p,
+.keboragassupply p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.gas-Kebora .Diamond-ul li {
+  font-size: 16px;
+  line-height: 1.6 !important;
+}
+
+li {
+  line-height: 1.6;
+}
+
+.keboragassupply h1 {
+  font-size: 32px;
+}
+
+.white-background {
+  background-color: var(--white-bg) !important;
+}
+
+@media (max-width: 1200px) {
+  .gas-supply-container-section {
+    flex-direction: column;
+  }
+  .gas-diamond-section {
+    padding: 40px 120px;
+  }
+
+  .gas-main-content h1 {
+    font-size: 22px;
+  }
+
+  .gas-second-content li {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .gas-content-flex {
+    margin: 20px 60px;
+  }
+
+  .gas-content-flex {
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .gas-first-content {
+    position: relative;
+  }
+
+  .gas-second-content,
+  .gas-first-content,
+  .gas-image-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .gas-supply-container-section {
+    flex-direction: column;
+    padding: 20px 60px;
+    gap: 20px;
+  }
+
+  .gas-main-content h1 {
+    font-size: 26px;
+    margin: 10px 0;
+  }
+
+  .gas-main-content h2 {
+    margin: 5px;
+  }
+
+  .gas-main-content p {
+    margin: 10px 0;
+  }
+  .gas-diamond-section {
+    padding: 20px 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .gas-text-container,
+  .kebora-content,
+  .kebora-text,
+  .gas-main-content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .gas-text-container h2 {
+    margin: 20px 0;
+  }
+
+  .gas-content-flex {
+    margin: 20px 60px;
+  }
+
+  .gas-content-flex {
+    margin: 0px 40px 20px;
+  }
+
+  .gas-second-content p,
+  .gas-second-content li,
+  .gas-first-content li,
+  .center-flex p,
+  .contact-left p {
+    font-size: 14px;
+  }
+
+  .gas-content-flex {
+    gap: 0px;
+  }
+
+  .gas-second-content h3 {
+    margin: 15px 0;
+  }
+
+  .keboragassupply {
+    margin: 20px 60px;
+  }
+
+  .keboragassupply h1 {
+    font-size: 28px;
+  }
+
+  .diamond-flex-gas img {
+    width: calc(100% - 120px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .diamond-flex-gas img {
+    width: calc(100% - 80px);
+  }
+
+  .diamond-flex-gas {
+    height: 40vh;
+  }
+  .gas-diamond-section {
+    padding: 20px 40px !important;
+  }
+
+  .gas-text-container li,
+  .kebora-text p,
+  .gas-text-container p,
+  .keboragassupply p {
+    font-size: 14px;
+  }
+
+  .gas-text-container button {
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+
+  .gas-text-container ul {
+    padding-left: 25px;
+  }
+
+  .gas-text-container h2 {
+    margin: 20px 0;
+    font-size: 28px;
+  }
+
+  .kebora-container,
+  .gas-supply-container-section {
+    padding: 20px 40px;
+  }
+
+  .gas-side-header {
+    display: none;
+  }
+
+  .gas-main-content h1,
+  .keboragassupply h1,
+  .contact-left p {
+    font-size: 24px;
+  }
+
+  .gas-main-content p,
+  .gas-image-container p,
+  .ul-info p,
+  .gas-Kebora .Diamond-ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gas-second-content p,
+  .gas-second-content li,
+  .gas-first-content li,
+  .center-flex p,
+  .ul-info p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 7px 0;
+  }
+
+  .gas-second-content h3,
+  .gas-second-content h4,
+  .center-flex h1 {
+    font-size: 22px;
+    margin: 14px 0;
+  }
+
+  .gas-first-content h3 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  .gas-text-container h2 {
+    font-size: 22px;
+    margin: 0px;
+  }
+  .gas-text-container ul li {
+    font-size: 12px;
+    line-height: 1.3;
+    margin: 12px 0;
+  }
+  .gas-text-container button {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+
+  .gas-text-container li {
+    margin: 12px 0;
+  }
+
+  .gas-main-content h1,
+  .keboragassupply h1 {
+    font-size: 22px;
+  }
+
+  .gas-main-content p,
+  .gas-kebora-section li,
+  .gas-image-container p,
+  .Diamond-ul,
+  .keboragassupply p,
+  .contact-left p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .gas-second-content li {
+    margin: 5px 0;
+  }
+
+  .gas-text-container ul {
+    padding-left: 15px;
+  }
+
+  .keboragassupply {
+    margin: 20px;
+  }
+
+  .gas-diamond-section {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .gas-diamond-section {
+    padding: 20px !important;
+  }
+
+  .gas-supply-container-section {
+    padding: 0px 20px;
+  }
+
+  .gas-main-content {
+    padding: 0;
+  }
+
+  .center-flex,
+  .gas-content-flex {
+    margin: 10px 20px;
+  }
+
+  .gas-text-container p,
+  .keboragassupply p,
+  .contact-left p {
+    font-size: 12px;
+  }
+
+  .diamond-flex-gas img {
+    width: calc(100% - 40px);
+  }
+}

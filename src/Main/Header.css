@@ -1,0 +1,253 @@
+/* Container */
+.header-main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: calc(100% - 260px);
+}
+
+.navbar-firstline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.navbar-firstline-left,
+.navbar-firstline-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-firstline-left a {
+  text-decoration: none;
+  color: var(--h1-color);
+  font-size: 14px;
+}
+
+.navbar-firstline-right {
+  font-size: 14px;
+  color: var(--h1-color);
+}
+
+.navbar-secondline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.navbar-second {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-second img {
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-searchbar {
+  padding: 8px 35px 8px 15px;
+  border-radius: 30px;
+  border: 1px solid var(--background-color);
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  font-size: 14px;
+  color: var(--button-color);
+  pointer-events: none;
+}
+
+.navbar-secondline-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-contact-button {
+  background: var(--dark-blue-color);
+  color: var(--background-color);
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: calc(100vh - 40px);
+  width: 300px;
+  background-color: var(--white-bg);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: right 0.3s ease-in-out;
+}
+
+.slide-in {
+  right: 0 !important;
+}
+
+.mobile-menu-header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.mobile-search {
+  width: 70%;
+  padding: 10px 35px 10px 15px;
+  border-radius: 30px;
+  border: 1px solid var(--background-color);
+  font-size: 14px;
+}
+
+.mobile-search-icon {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--content-color);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  font-size: 24px;
+  /* color: #fff; */
+  color: var(--h1-color);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mobile-menu a {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--background-color);
+  text-decoration: none;
+  color: var(--h1-color);
+  font-size: 15px;
+}
+
+/* Mobile bottom section */
+.mobile-contact {
+  margin-top: auto;
+  font-size: 14px;
+  color: var(--h1-color);
+  margin-bottom: 10px;
+}
+
+.mobile-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sign-in-btn,
+.contact-us-btn {
+  padding: 10px;
+  border: none;
+  background-color: var(--button-blue-color);
+  color: var(--background-color);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sign-in-btn {
+  background-color: var(--background-color);
+  color: var(--h1-color);
+}
+
+.header-main-div .active {
+  color: var(--button-blue-color);
+  font-weight: bold;
+}
+
+.navbar-email {
+  text-decoration: none;
+  color: var(--h1-color);
+  font-size: 14px;
+}
+
+@media (max-width: 1400px) {
+  .header-container {
+    width: calc(100% - 140px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-container {
+    width: calc(100% - 120px);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-firstline-left,
+  .navbar-firstline-right,
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .navbar-firstline {
+    margin: 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar-secondline {
+    justify-content: space-between;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    width: calc(100% - 60px) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-container {
+    width: calc(100% - 20px) !important;
+  }
+}
