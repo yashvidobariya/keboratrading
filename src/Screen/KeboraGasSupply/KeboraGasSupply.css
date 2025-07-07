@@ -95,7 +95,7 @@
 .gas-diamond-section {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   background-color: var(--background-color);
   padding: 80px 120px;
   gap: 40px;

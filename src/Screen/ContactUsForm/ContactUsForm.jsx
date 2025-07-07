@@ -48,8 +48,8 @@ const ContactUsForm = () => {
 
     if (Object.keys(formErrors).length === 0) {
       const templateParams = {
-        from_name: formData.name,
-        from_email: formData.email,
+        name: formData.name,
+        email: formData.email,
         phone: formData.phone,
         company: formData.company,
         subject: formData.subject,

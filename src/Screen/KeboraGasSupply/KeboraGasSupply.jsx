@@ -30,7 +30,7 @@ const KeboraGasSupply = () => {
           <span className="line">KEBORA TRADING COMPANY LIMITED</span>
         </div>
         <div className="gas-main-content">
-          <h1>KEBORA TRADING COMPANY LIMITE</h1>
+          <h1>KEBORA TRADING COMPANY LIMITED</h1>
           <ul className="gas-kebora-section">
             <li>
               Medical Oxygen: Ensuring a vital lifeline for healthcare

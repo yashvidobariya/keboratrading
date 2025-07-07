@@ -106,37 +106,41 @@ const KeboraMachines = () => {
               for maximum productivity on your site.
             </p>
             <h3>Available rental equipment: </h3>
-            <li>
-              Excavators – Suitable for digging, trenching, demolition, and bulk
-              material handling
-            </li>
-            <li>
-              JCB Backhoe Loaders – Multi-purpose machines combining a loader
-              and excavator
-            </li>
-            <li>
-              Front Loaders – Perfect for lifting and transporting heavy
-              materials on-site
-            </li>
-            <li>
-              Dozers – Ideal for grading, pushing soil or rubble, and
-              land-clearing operations
-            </li>
-            <h3>What You Get with Our Rental Service:</h3>
             <ul>
-              <li>A fleet maintained to the highest industry standards</li>
-              <li>Like-new machines delivered clean and ready for work</li>
+              {" "}
               <li>
-                24/7 customer support to reduce downtime and handle emergencies
+                Excavators – Suitable for digging, trenching, demolition, and
+                bulk material handling
               </li>
               <li>
-                Flexible rental durations – daily, weekly, monthly, or long‑term
-                project plans
+                JCB Backhoe Loaders – Multi-purpose machines combining a loader
+                and excavator
               </li>
               <li>
-                Optional trained operator services to improve safety and speed
-                on‑site
+                Front Loaders – Perfect for lifting and transporting heavy
+                materials on-site
               </li>
+              <li>
+                Dozers – Ideal for grading, pushing soil or rubble, and
+                land-clearing operations
+              </li>
+              <h3>What You Get with Our Rental Service:</h3>
+              <ul>
+                <li>A fleet maintained to the highest industry standards</li>
+                <li>Like-new machines delivered clean and ready for work</li>
+                <li>
+                  24/7 customer support to reduce downtime and handle
+                  emergencies
+                </li>
+                <li>
+                  Flexible rental durations – daily, weekly, monthly, or
+                  long‑term project plans
+                </li>
+                <li>
+                  Optional trained operator services to improve safety and speed
+                  on‑site
+                </li>
+              </ul>
             </ul>
 
             <p>
