@@ -121,10 +121,10 @@
   padding-top: 80px;
 }
 
-@media (max-width: 1200px) {
-  .fin-diamond-section {
-    padding: 40px 120px;
-  }
+/* @media (max-width: 1200px) { */
+.fin-diamond-section {
+  padding: 40px 120px;
+  /* } */
 }
 
 @media (max-width: 992px) {

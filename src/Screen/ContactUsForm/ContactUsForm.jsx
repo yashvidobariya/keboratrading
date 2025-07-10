@@ -171,14 +171,19 @@ const ContactUsForm = () => {
 
         <div className="contact-info">
           <h3>Kebora Trading Company Limited</h3>
-          <p>
-            <HiOutlineLocationMarker /> 39 MASEMBI ROAD 555 SPOT KOIDU
+          <p className="flex-contact">
+            <HiOutlineLocationMarker className="icon-contact-us" />
+            <p>
+              43, KOINKAIDU ROAD NEXT TO LEGECY CLUB OPERA KOIDU SIERRA LEONE
+            </p>
           </p>
-          <p>
-            <IoMdCall /> +232 79343434
+          <p className="flex-contact">
+            <IoMdCall className="icon-contact-us" />
+            <p>+232 33059586 </p>
           </p>
-          <p>
-            <IoMailUnreadSharp /> keboraoxygen@gmail.com
+          <p className="flext-content">
+            <IoMailUnreadSharp className="icon-contact-us" />
+            <p> keboratrading@gmail.com</p>
           </p>
         </div>
       </div>

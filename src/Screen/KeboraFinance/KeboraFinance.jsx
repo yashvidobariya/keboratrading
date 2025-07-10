@@ -325,10 +325,10 @@ const KeboraFinance = () => {
               <a href="mailto:keboraoxygen@gmail.com">keboraoxygen@gmail.com</a>
             </div>
             <div>
-              <IoCall /> support@keborafinance.com
+              <IoCall /> +23233078662
             </div>
             <div>
-              <IoLocationSharp /> Freetown & Koidu, Sierra Leone
+              <IoLocationSharp /> 1 Nyama saquee street koidu City
             </div>
             <p>Follow us on: Facebook | Instagram | WhatsApp Business</p>
             <p>

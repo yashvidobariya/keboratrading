@@ -31,6 +31,13 @@ const KeboraGasSupply = () => {
         </div>
         <div className="gas-main-content">
           <h1>KEBORA TRADING COMPANY LIMITED</h1>
+          <p>
+            Welcome to Kebora Trading Company Ltd., your premiersupplier of
+            essential gases and industrial materials in Koidu, Eastern Province,
+            Sierra Leone. We are dedicatedto providing high-quality products and
+            reliable service tomeet the critical needs of our diverse clientele.
+            At Kebora Trading Company Ltd., we specialize in the supply of:
+          </p>
           <ul className="gas-kebora-section">
             <li>
               Medical Oxygen: Ensuring a vital lifeline for healthcare
@@ -151,8 +158,8 @@ const KeboraGasSupply = () => {
             shelf life.
           </p>
           <p>
-            Food Processing: Used for packaging to displace oxygen, extending
-            shelf life.{" "}
+            Chemical Industry: Used in various chemical processes and as a
+            blanketing gas.{" "}
           </p>
           <p>Electronics: Used in semiconductor manufacturing. </p>
           <p>Pharmaceuticals: Used in drug manufacturing and packaging. </p>
@@ -164,6 +171,21 @@ const KeboraGasSupply = () => {
         </div>
         <div className="gas-image-container">
           <img src={img21} alt="gas-Kebora Diamond" />
+          <h2>Nitrogen Gas Cylinders:</h2>
+          <p>
+            {" "}
+            Cylinder Specifications: Cylinders come in various sizes, typically
+            measured by their water capacity{" "}
+          </p>
+          <p>
+            Storage pressures are high, often around 150 to 300 bar, to maximize
+            the amount of gas stored.
+          </p>
+          <p>
+            {" "}
+            Purity levels vary depending on the application, ranging from
+            standard industrial grades to high-purity grades.
+          </p>
         </div>
       </div>
       <div className="gas-diamond-section">

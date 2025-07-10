@@ -156,13 +156,13 @@ const KeboraDiamond = () => {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <strong>Address:</strong> 39 MASEMBI ROAD 555 SPOT KOIDU
+                <strong>Address:</strong> 38 masembi road 555 spot koidu.
               </li>
               <li>
                 <strong>Phone:</strong> +232 79343434
               </li>
               <li>
-                <strong>Email:</strong> keboraoxygen@gmail.com
+                <strong>Email:</strong> pradeepborada@gmail.com
               </li>
             </ul>
             <h4>Contact Form:</h4>

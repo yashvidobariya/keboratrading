@@ -57,6 +57,12 @@ const Header = () => {
             >
               CONTACT US
             </NavLink>
+            <NavLink
+              to="/tablic-restaurants"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              TABLIC RESTAURANTS
+            </NavLink>
           </div>
           <div className="navbar-firstline-right">
             <a href="mailto:keboraoxygen@gmail.com" className="navbar-email">

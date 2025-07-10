@@ -9,6 +9,7 @@ import KeboraFinance from "./Screen/KeboraFinance/KeboraFinance";
 import ContactUsForm from "./Screen/ContactUsForm/ContactUsForm";
 import Policy from "../src/Screen/Policy/Policy";
 import ScrollToTop from "./Main/ScrollToTop";
+import TablicRes from "./Screen/TablicRes/TablicRes";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/kebora-finance" element={<KeboraFinance />}></Route>
           <Route path="/contactus" element={<ContactUsForm />}></Route>
           <Route path="/policy" element={<Policy />}></Route>
+          <Route path="/tablic-restaurants" element={<TablicRes />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
