@@ -1,13 +1,7 @@
-/* Container */
 .flyer-wrapper {
-  max-width: 1000px;
-  margin: 10px auto;
-  padding: 30px;
+  margin: 10px 120px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  /* background: linear-gradient(to bottom right, #fff8e1, #ffe0b2); */
 }
 
 /* Header */
@@ -143,6 +137,362 @@
 }
 
 .Menu-main-div h1 {
-  color: var(--button-blue-color);
+  color: var(--dark-blue-color);
   text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.menu-card {
+  background-color: #000000;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 0 0 16px 0px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  color: white !important;
+  transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+.menu-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  text-align: center;
+  /* color: #333; */
+}
+
+.menu-description {
+  font-size: 0.9rem;
+  /* color: #555; */
+  flex-grow: 1;
+}
+
+.menu-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e67e22;
+  margin-top: 10px;
+}
+
+.menu-card img {
+  height: 180px;
+}
+
+.menu-content-div {
+  padding-left: 10px;
+  color: white !important;
+}
+
+.fastfood-div h1 {
+  text-align: center;
+  font-size: 34px;
+  justify-content: center;
+  /* color: var(--dark-blue-color); */
+}
+
+.menu-grid-fastfood {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.menu-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.menu-text {
+  padding: 0 20px;
+}
+
+.menu-text h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+.menu-text p {
+  margin: 10px 0;
+}
+
+.menu-price {
+  padding: 10px 20px;
+}
+.limited-plate-container {
+  font-family: "Segoe UI", sans-serif;
+  background: black;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ffc107;
+  margin-bottom: 30px;
+}
+
+.limited-plate-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+.limited-plate-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 25px;
+  border: 4px solid #ffc107;
+}
+
+.menu-info {
+  margin-bottom: 20px;
+}
+
+.menu-heading {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #ffdd57;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  /* max-width: 600px; */
+  font-weight: 600;
+}
+
+.menu-list li {
+  background: #252557;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.note-price-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.note-box {
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.note-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.note-text {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.fastfood-div p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.price-badge {
+  background-color: #ffdd57;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(255, 221, 87, 0.5);
+}
+
+.food-items-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.food-item {
+  width: 180px;
+  text-align: center;
+}
+
+.food-item img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffc107;
+}
+
+.food-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffdd57;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .food-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .note-section {
+    text-align: center;
+  }
+
+  .price-badge {
+    width: 100px;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .flyer-wrapper {
+    margin: 20px 60px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .flyer-header h1,
+  .flyer-details h2,
+  .Menu-main-div h1 {
+    margin: 10px 0;
+    font-size: 28px;
+  }
+
+  .card-grid {
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .flyer-wrapper {
+    margin: 20px 40px;
+  }
+
+  .fastfood-div h1,
+  .heading {
+    font-size: 28px;
+  }
+
+  .heading,
+  .note-price-wrapper,
+  .food-items-grid {
+    margin: 5px 0;
+  }
+
+  .fastfood-div p,
+  .menu-list li {
+    font-size: 16px;
+  }
+
+  .food-items-grid {
+    gap: 15px;
+  }
+
+  .menu-list li {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .limited-plate-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .note-price-wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .limited-plate-image img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 0px;
+  }
+  .food-items-grid {
+    gap: 10px;
+  }
+  .flyer-wrapper {
+    margin: 20px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+
+  .fastfood-div h1,
+  .menu-heading {
+    font-size: 22px;
+  }
+
+  .fastfood-div p {
+    font-size: 14px;
+  }
+
+  .note-price-wrapper {
+    gap: 10px;
+  }
 }
