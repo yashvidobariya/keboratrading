@@ -134,6 +134,9 @@ const Header = () => {
               <NavLink to="/kebora-finance" onClick={handleMenuClose}>
                 KEBORA FINANCE
               </NavLink>
+              <NavLink to="/tablic-restaurants" onClick={handleMenuClose}>
+                Tablic Restaurants
+              </NavLink>
               <NavLink to="/contactus" onClick={handleMenuClose}>
                 Contact Us
               </NavLink>

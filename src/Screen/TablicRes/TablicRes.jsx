@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../Image/logo.png";
 import pizza from "../../Image/pizza.jpeg";
 import sandwich from "../../Image/sandwich.png";
 import samosa from "../../Image/smosa.png";
@@ -575,6 +576,7 @@ const TablicRes = () => {
       </div>
 
       <section className="flyer-details">
+        <img src={logo} alt="logo" />
         <h2>WE'RE OPEN</h2>
         <p>{/* <strong>Form 10.00 am to 02.00 am</strong> */}</p>
         <p>

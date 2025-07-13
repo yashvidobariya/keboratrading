@@ -3,7 +3,7 @@ import "./KerboraMachine.css";
 import img1 from "../../Image/13.jpeg";
 import img11 from "../../Image/11.jpeg";
 import img18 from "../../Image/18.jpeg";
-import img10 from "../../Image/10.jpeg";
+import img10 from "../../Image/10.png";
 
 const KeboraMachines = () => {
   const images = [img11, img18, img10];

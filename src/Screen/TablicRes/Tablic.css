@@ -199,7 +199,7 @@
 
 .menu-content-div {
   padding-left: 10px;
-  color: white !important;
+  color: var(--background-color) !important;
 }
 
 .fastfood-div h1 {
@@ -331,9 +331,9 @@
 
 .fastfood-div p {
   text-align: center;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 12px 0;
+  /* font-weight: 600; */
+  font-size: 16px;
+  margin: 12px 6px;
 }
 
 .price-badge {
@@ -380,6 +380,10 @@
   color: #ffdd57;
 }
 
+.flyer-details img {
+  width: 240px;
+  height: 240px;
+}
 /* Responsive Styling */
 @media (max-width: 768px) {
   .food-items {
