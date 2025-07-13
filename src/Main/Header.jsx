@@ -135,7 +135,7 @@ const Header = () => {
                 KEBORA FINANCE
               </NavLink>
               <NavLink to="/tablic-restaurants" onClick={handleMenuClose}>
-                Tablic Restaurants
+                TABLIC RESTAURANTS
               </NavLink>
               <NavLink to="/contactus" onClick={handleMenuClose}>
                 Contact Us
