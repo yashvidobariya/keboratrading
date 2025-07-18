@@ -61,7 +61,7 @@ const Header = () => {
               to="/tablic-restaurants"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              TABLIC RESTAURANTS
+              KEBORA TABLIC RESTAURANTS
             </NavLink>
           </div>
           <div className="navbar-firstline-right">
@@ -135,7 +135,7 @@ const Header = () => {
                 KEBORA FINANCE
               </NavLink>
               <NavLink to="/tablic-restaurants" onClick={handleMenuClose}>
-                TABLIC RESTAURANTS
+                KEBORA TABLIC RESTAURANTS
               </NavLink>
               <NavLink to="/contactus" onClick={handleMenuClose}>
                 Contact Us

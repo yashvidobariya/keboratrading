@@ -111,6 +111,18 @@
   display: block;
 }
 
+.reasutant-section {
+  background-color: white;
+}
+
+.reasutant-section {
+  line-height: 1.5;
+}
+
+.reasutant-section p {
+  font-size: 16px;
+}
+
 @media (max-width: 992px) {
   .contact-us {
     padding: 40px 60px;
@@ -165,6 +177,11 @@
     pad: 10px 16px;
     font-size: 15px;
   }
+
+  .reasutant-section p {
+    font-size: 14px;
+    margin: 6px 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -183,6 +200,11 @@
   }
   .form-submit {
     text-align: center;
+  }
+
+  .reasutant-section p {
+    font-size: 12px;
+    margin: 6px 0;
   }
 }
 

@@ -3,8 +3,11 @@ import emailjs from "@emailjs/browser";
 import logo from "../Image/15.jpeg";
 import "./ContactUs.css";
 import { IoMail, IoCall, IoLocationSharp } from "react-icons/io5";
+import res from "../Image/res.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -81,130 +84,191 @@ const ContactUs = () => {
     }
   };
 
+  const handlekoberaDaimond = () => {
+    navigate("/tablic-restaurants");
+  };
+
   return (
-    <div className="contact-us">
-      <div className="contact-left">
-        <img src={logo} alt="Kebora Trading Company Limited" className="logo" />
-        <h2>Contact Us</h2>
-        <p>
-          <strong>Kebora Trading Company Limited</strong> serves as the umbrella
-          for a diverse portfolio of businesses, including diamond trading,
-          machinery, gas supply, and financial services. We are committed to
-          excellence, reliability, and fostering strong client relationships
-          across all our operations.​​
-        </p>
-        <div className="contact-details">
-          <div className="icon-content">
-            <IoMail className="icon-contactus" />
-            <a href="mailto:keboraoxygen@gmail.com">keboratrading@gmail.com</a>
-          </div>
-          <div className="icon-content">
-            <IoCall className="icon-contactus" /> +232 79343434
-          </div>
-          <div className="icon-content">
-            <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
-            spot koidu
+    <>
+      <div className="diamond-section reasutant-section">
+        <div className="image-container">
+          <img src={res} alt="Kebora Diamond" />
+        </div>
+        <div className="text-container">
+          <h2>KEBORA TABLIC RESTAURANTS</h2>
+          <p>
+            Welcome to Kebora & Tablic Restaurant, where we redefine
+            all-vegetarian dining with a commitment to exceptional flavor and
+            uncompromising hygiene. Whether you're joining us for a meal in our
+            spotless restaurant, celebrating a special occasion, or enjoying our
+            delicious food at home, we've got you covered. We're proud to offer:
+          </p>
+          <ul>
+            <li>
+              100% Vegetarian Delights: A diverse and vibrant menu crafted with
+              the freshest ingredients.
+            </li>
+            <li>
+              Impeccable Hygiene: Your health and safety are our top priority.
+            </li>
+            <li>
+              Full-Service Bar: Complement your meal with our extensive
+              selection of beers, wines, whiskies, champagnes, and soft drinks.
+            </li>
+            <li>
+              Special Event Hosting: Let us make your birthday parties and
+              anniversary celebrations truly memorable in our perfect venue.
+            </li>
+            <li>
+              Convenient Home Delivery: Enjoy your favorite dishes from Kebora &
+              Tablic delivered right to your doorstep.
+            </li>
+          </ul>
+          <p>
+            Ready to experience the Kebora & Tablic difference or plan your next
+            event?
+          </p>
+          <p>
+            Contact Vishal Rudani at +23233059586 for reservations, delivery, or
+            party bookings. We look forward to serving you!
+          </p>
+          <div className="diamondsection-button">
+            <button onClick={handlekoberaDaimond}>Learn more</button>
           </div>
         </div>
       </div>
-
-      <div className="contact-right">
-        {/* <form> */}
-        <div className="form-group">
-          <label>Your Name *</label>
-          <div className="input-flex">
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              className={errors.name ? "error-border" : ""}
-            />
-            {errors.name && <span className="error">{errors.name}</span>}
+      <div className="contact-us">
+        <div className="contact-left">
+          <img
+            src={logo}
+            alt="Kebora Trading Company Limited"
+            className="logo"
+          />
+          <h2>Contact Us</h2>
+          <p>
+            <strong>Kebora Trading Company Limited</strong> serves as the
+            umbrella for a diverse portfolio of businesses, including diamond
+            trading, machinery, gas supply, and financial services. We are
+            committed to excellence, reliability, and fostering strong client
+            relationships across all our operations.​​
+          </p>
+          <div className="contact-details">
+            <div className="icon-content">
+              <IoMail className="icon-contactus" />
+              <a href="mailto:keboraoxygen@gmail.com">
+                keboratrading@gmail.com
+              </a>
+            </div>
+            <div className="icon-content">
+              <IoCall className="icon-contactus" /> +232 79343434
+            </div>
+            <div className="icon-content">
+              <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
+              spot koidu
+            </div>
           </div>
         </div>
 
-        <div className="form-group">
-          <label>Phone Number</label>
-          <div className="input-flex">
-            <input
-              type="text"
-              name="phone"
-              value={formData.phone}
-              placeholder="+91"
-              onChange={handleChange}
-            />
+        <div className="contact-right">
+          {/* <form> */}
+          <div className="form-group">
+            <label>Your Name *</label>
+            <div className="input-flex">
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                className={errors.name ? "error-border" : ""}
+              />
+              {errors.name && <span className="error">{errors.name}</span>}
+            </div>
           </div>
-        </div>
 
-        <div className="form-group">
-          <label>Your Email *</label>
-          <div className="input-flex">
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className={errors.email ? "error-border" : ""}
-            />
-            {errors.email && <span className="error">{errors.email}</span>}
+          <div className="form-group">
+            <label>Phone Number</label>
+            <div className="input-flex">
+              <input
+                type="text"
+                name="phone"
+                value={formData.phone}
+                placeholder="+91"
+                onChange={handleChange}
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="form-group">
-          <label>Your Company</label>
-          <div className="input-flex">
-            <input
-              type="text"
-              name="company"
-              value={formData.company}
-              onChange={handleChange}
-            />
+          <div className="form-group">
+            <label>Your Email *</label>
+            <div className="input-flex">
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                className={errors.email ? "error-border" : ""}
+              />
+              {errors.email && <span className="error">{errors.email}</span>}
+            </div>
           </div>
-        </div>
 
-        <div className="form-group">
-          <label>Subject *</label>
-          <div className="input-flex">
-            <input
-              type="text"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              className={errors.subject ? "error-border" : ""}
-            />
-            {errors.subject && <span className="error">{errors.subject}</span>}
+          <div className="form-group">
+            <label>Your Company</label>
+            <div className="input-flex">
+              <input
+                type="text"
+                name="company"
+                value={formData.company}
+                onChange={handleChange}
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="form-group">
-          <label>Your Question *</label>
-          <div className="input-flex">
-            <textarea
-              name="question"
-              rows="4"
-              value={formData.question}
-              onChange={handleChange}
-              className={errors.question ? "error-border" : ""}
-            ></textarea>
-            {errors.question && (
-              <span className="error">{errors.question}</span>
-            )}
+          <div className="form-group">
+            <label>Subject *</label>
+            <div className="input-flex">
+              <input
+                type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                className={errors.subject ? "error-border" : ""}
+              />
+              {errors.subject && (
+                <span className="error">{errors.subject}</span>
+              )}
+            </div>
           </div>
-        </div>
 
-        <div className="form-submit">
-          <button
-            type="submit"
-            className="submit-button"
-            onClick={handleSubmit}
-          >
-            Submit
-          </button>
+          <div className="form-group">
+            <label>Your Question *</label>
+            <div className="input-flex">
+              <textarea
+                name="question"
+                rows="4"
+                value={formData.question}
+                onChange={handleChange}
+                className={errors.question ? "error-border" : ""}
+              ></textarea>
+              {errors.question && (
+                <span className="error">{errors.question}</span>
+              )}
+            </div>
+          </div>
+
+          <div className="form-submit">
+            <button
+              type="submit"
+              className="submit-button"
+              onClick={handleSubmit}
+            >
+              Submit
+            </button>
+          </div>
+          {/* </form> */}
         </div>
-        {/* </form> */}
       </div>
-    </div>
+    </>
   );
 };
 
