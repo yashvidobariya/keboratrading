@@ -129,8 +129,10 @@ const ContactUs = () => {
             event?
           </p>
           <p>
-            Contact Vishal Rudani at +23233059586 for reservations, delivery, or
-            party bookings. We look forward to serving you!
+            Contact <strong>Vishal Rudani</strong> at{" "}
+            <strong>+23233 059586 </strong>
+            for reservations, delivery, or party bookings. We look forward to
+            serving you!
           </p>
           <div className="diamondsection-button">
             <button onClick={handlekoberaDaimond}>Learn more</button>
