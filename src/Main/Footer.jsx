@@ -19,9 +19,9 @@ const Footer = () => {
           <p>
             <strong>Kebora Trading Company Limited</strong> serves as the
             umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, and financial services. We are
-            committed to excellence, reliability, and fostering strong client
-            relationships across all our operations.
+            trading, machinery, gas supply, financial services and restaurant.
+            We are committed to excellence, reliability, and fostering strong
+            client relationships across all our operations.
           </p>
         </div>
         <div className="links">

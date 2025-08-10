@@ -106,7 +106,8 @@
   background-color: var(--h1-color);
 }
 
-.card-content h3 {
+.card-content h3,
+.name-border {
   font-size: 1.2rem;
   color: #e67e22;
   border-bottom: 1px solid #807e7e;
@@ -146,6 +147,11 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 30px;
+}
+
+.center-fastfood {
+  text-align: center !important;
+  justify-content: center;
 }
 
 .menu-card {
@@ -330,10 +336,10 @@
 }
 
 .fastfood-div p {
-  text-align: center;
+  text-align: justify;
   /* font-weight: 600; */
   font-size: 16px;
-  margin: 12px 6px;
+  margin: 12px 12px 12px 0;
 }
 
 .price-badge {

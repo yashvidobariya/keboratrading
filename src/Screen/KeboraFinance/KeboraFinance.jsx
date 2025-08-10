@@ -24,9 +24,9 @@ const KeboraFinance = () => {
 
   const [errors, setErrors] = useState({});
 
-  const SERVICE_ID = "service_442tce3";
-  const TEMPLATE_ID = "template_9acmwhg";
-  const PUBLIC_KEY = "4Mli6_pD_hvI2CY_W";
+  const SERVICE_ID = "service_qe5rac8";
+  const TEMPLATE_ID = "template_0ql30ti";
+  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
 
   const validate = () => {
     const newErrors = {};
@@ -322,15 +322,18 @@ const KeboraFinance = () => {
           <div className="contact-details">
             <div>
               <IoMail />{" "}
-              <a href="mailto:keboraoxygen@gmail.com">keboraoxygen@gmail.com</a>
+              <a href="mailto:keboraoxygen@gmail.com">
+                keborafinance@gmail.com
+              </a>
             </div>
             <div>
-              <IoCall /> +23233078662
+              <IoCall /> +232 33 05 95 86
             </div>
             <div>
-              <IoLocationSharp /> 1 Nyama saquee street koidu City
+              <IoLocationSharp /> 43, KOIKAIDU ROAD, NEXT TO LEGANCY CLUB OPERA,
+              KONO SIERRA LEONE
             </div>
-            <p>Follow us on: Facebook | Instagram | WhatsApp Business</p>
+            {/* <p>Follow us on: Facebook | Instagram | WhatsApp Business</p> */}
             <p>
               Kebora Finance Services — Because your money should work for you.
             </p>
@@ -357,7 +360,7 @@ const KeboraFinance = () => {
                 type="text"
                 name="phone"
                 value={formData.phone}
-                placeholder="+91"
+                placeholder="+232"
                 onChange={handleChange}
               />
             </div>

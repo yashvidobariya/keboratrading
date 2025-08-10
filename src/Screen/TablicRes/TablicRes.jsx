@@ -69,6 +69,21 @@ import img1 from "../../Image/1.png";
 import img2 from "../../Image/2.png";
 import img3 from "../../Image/3.png";
 import img4 from "../../Image/4.png";
+
+import dal from "../../Image/dal.jpeg";
+import dalfry from "../../Image/dalfry.png";
+import onionbhajiya from "../../Image/onionbhajiya.png";
+import potetobhajiya from "../../Image/potetobhajiya.png";
+import kumbhaniya from "../../Image/kumbhaniya.png";
+import aloopuri from "../../Image/aloopuri.png";
+import idli from "../../Image/idli.png";
+import miniidli from "../../Image/miniidli.png";
+import idli1 from "../../Image/idli1.png";
+import sambar from "../../Image/sambar.png";
+import dahivada from "../../Image/dahivada.png";
+import utt from "../../Image/utt.png";
+import utt1 from "../../Image/utt1.png";
+import avocado from "../../Image/avocado.png";
 import "./Tablic.css";
 
 const TablicRes = () => {
@@ -77,14 +92,14 @@ const TablicRes = () => {
       title: "Samosa",
       price: "25 LE",
       description:
-        "MENUSAMOSACrispy golden pastry filledwith a spicy mashed potatoand green pea mix, deep-fried to perfection.",
+        "Crispy golden pastry filledwith a spicy mashed potatoand green pea mix, deep-fried to perfection",
       image: samosaa,
     },
     {
       title: "Frankie",
       price: "100 LE",
       description:
-        "BURGERA crispy veggie patty layeredwith lettuce, tomato, onions,and creamy mayo in a toastedbun",
+        "The delicious frankie recipe is asnack that everyone will enjoy andis a popular vegetarian street foodoption across India.",
       image: frankie,
     },
     {
@@ -105,7 +120,7 @@ const TablicRes = () => {
       title: "Burger",
       price: "120 LE",
       description:
-        "This delicious frankie recipe is asnack that everyone will enjoy andis a popular vegetarian street foodoption across India.",
+        "A crispy veggie patty layeredwith lettuce, tomato, onions,and creamy mayo in a toastedbun.",
       image: burgerr,
     },
     {
@@ -128,6 +143,21 @@ const TablicRes = () => {
       description:
         "Delicate puris filled with potatoes and topped withsweet yogurt, tangy chutneys,and sev – a cool, creamy twistto the classic chaat.",
       image: dahipuri,
+    },
+    {
+      id: 5,
+      title: "Afredo Pasta",
+      description: "WHITE SAUCE BLENDED WITHGARLIK AND PASTA.",
+      price: "200 LE",
+      image: afpizza,
+    },
+    {
+      id: 4,
+      title: "Red Source Pasta",
+      description:
+        "pasta in a tangy tomato -garlicsauce finished with herbs anda touch of relive oil200",
+      price: "150 LE",
+      image: redpizza,
     },
   ];
 
@@ -156,37 +186,6 @@ const TablicRes = () => {
       price: "280 LE",
       img: paneerpizza,
     },
-    {
-      id: 4,
-      name: "Red Source Pasta",
-      description:
-        "pasta in a tangy tomato -garlicsauce finished with herbs anda touch of relive oil200",
-      price: "150 LE",
-      img: redpizza,
-    },
-    {
-      id: 5,
-      name: "Afredo Pasta",
-      description: "PASTAWHITE SAUCE BLENDED WITHGARLIK AND PASTA.",
-      price: "200 LE",
-      img: afpizza,
-    },
-    {
-      id: 6,
-      name: "Chhole Bhature (WITH ACHAR)",
-      description:
-        "A North Indian favorite! Fluffy, deep-fried bhature served with spicy andflavorful chickpea curry (chhole),garnished with onions, lemon, andtangy pickles – a hearty andsatisfying meal any time of the day.",
-      price: "120 LE",
-      img: chole,
-    },
-    {
-      id: 7,
-      name: "Pav Bhaji",
-      description:
-        "Pav bhaji is a popular Indian street food consisting of a spicymashed vegetable curry (bhaji)served with soft bread rolls(pav).",
-      price: "150 LE",
-      img: bhaji,
-    },
   ];
 
   const MenuItem = [
@@ -202,7 +201,7 @@ const TablicRes = () => {
       id: 2,
       name: "Paneer Tikka Masala",
       description:
-        "A popular Indian curry where cubes of paneer are cooked in a spiced tomato-based gravy.",
+        "Paneer Tikka Masala is a popular Indian curry where cubes of paneer are cooked in a sauce of your choice and best served with a fluffy naan or boiled rice.",
       price: "200 LE",
       img: paneertikka,
     },
@@ -210,7 +209,7 @@ const TablicRes = () => {
       id: 3,
       name: "Mix Vegetable",
       description:
-        "A colorful assortment of seasonal produce like cauliflower, carrots, peas, and beans in aromatic spices for a satisfying curry.",
+        "This dish features a colorful assortment of seasonal produce, such as cauliflower, carrots, peas, and green beans, all harmoniously blended with aromatic spices and herbs for a satisfying culinary experience.",
       price: "200 LE",
       img: mixveg,
     },
@@ -226,7 +225,7 @@ const TablicRes = () => {
       id: 5,
       name: "Paneer Bhurji",
       description:
-        "Scrambled paneer dish cooked with onions, tomatoes, and spices. Tasty and quick!",
+        "Paneer Bhurji is a scrambled paneer dish cooked with onions, tomatoes, and spices, creating a flavorful and quick-tomake meal. It's a versatile dish that pairs well with bread or as a filling for wraps.",
       price: "200 LE",
       img: paneerbhurji,
     },
@@ -237,7 +236,7 @@ const TablicRes = () => {
       id: 6,
       name: "Chapati Roti",
       description:
-        "Everyday Indian flatbread made with whole wheat flour (atta) and water. Soft, simple, and healthy.",
+        "ERoti or Chapati is everydayIndian flatbread which ismade with only 2 ingredients-whole wheat flour (atta) andwater.",
       price: "20 LE",
       img: roti,
     },
@@ -245,7 +244,7 @@ const TablicRes = () => {
       id: 7,
       name: "Simple Paratha",
       description:
-        "A popular Indian flatbread that differs from roti in texture. Perfect with any curry or curd.",
+        "Paratha and roti are bothpopular Indian flatbreads,but they differ in texture andpreparation.Roti or Chapati is everydayIndian flatbread which ism",
       price: "30 LE",
       img: paratha,
     },
@@ -337,6 +336,70 @@ const TablicRes = () => {
         "Wok-tossed rice with colorful vegetables and soy seasoning.",
       price: "120 LE",
       img: vegfriedrice,
+    },
+    {
+      id: 19,
+      name: "Masoor Dall",
+      description:
+        "Masoor dal, also known as red lentils, is a type of lentil popular in Indian cuisine. It is a quickcooking, protein-rich legume with a mild, earthy flavor.",
+      price: "60 LE",
+      img: vegpulav,
+    },
+    {
+      id: 20,
+      name: "Dal Makhani",
+      description:
+        "Dal Makhani is a rich and creamy Indian dish made with whole black lentils (uraddal), kidney beans (rajma), butter, and cream.",
+      price: "100 LE",
+      img: kashmiripulao,
+    },
+    {
+      id: 21,
+      name: "Toor Dal",
+      description:
+        "Toor dal, also known as pigeon pea or Arhar dal, is a popular lentil in Indian cuisine, known for its mild, nutty flavor and high protein content.",
+      price: "80 LE",
+      img: dal,
+    },
+    {
+      id: 22,
+      name: "Dal Fry",
+      description:
+        "Dal fry is a popular Indian dish featuring lentils (dal) cooked and then simmered in a flavorful, spiced oil or sauce called tadka or tarka.",
+      price: "80 LE",
+      img: dalfry,
+    },
+    {
+      id: 22,
+      name: "Onion Bhajiya",
+      description:
+        "Kanda Bhaji recipe with step by step photos. Kanda Bhaji are fried onion fritters.",
+      price: "100 LE",
+      img: onionbhajiya,
+    },
+    {
+      id: 22,
+      name: "poteto Bhajiya",
+      description:
+        "Potato Vada, also known as Batata Vada, is a popular Indian snack, especially in Maharashtra. It consists of a spicy mashed potato filling, coated in a gram flour (besan) batter, and deep-fried until golden brown and crispy.",
+      price: "150 LE",
+      img: potetobhajiya,
+    },
+    {
+      id: 22,
+      name: "Kumbhaniya Bhajiya",
+      description:
+        "Dal fry is a popular Indian dish featuring lentils (dal) cooked and then simmered in a flavorful, spiced oil or butter base known as tadka or tarka.",
+      price: "100 LE",
+      img: kumbhaniya,
+    },
+    {
+      id: 23,
+      name: "Poteto Puri",
+      description:
+        "Potato Bhajiya, also known as Aloo Pakora or Potato Fritters, is a popular Indian snack made by coating thinly sliced potatoes in a spiced chickpea flour batter and deep-frying them until golden and crispy.",
+      price: "120 LE",
+      img: aloopuri,
     },
   ];
 
@@ -515,6 +578,85 @@ const TablicRes = () => {
       img: mysoremasaladosa,
       category: "South Indian",
     },
+    {
+      id: 6,
+      name: "Chhole Bhature (WITH ACHAR)",
+      description:
+        "A North Indian favorite! Fluffy, deep-fried bhature served with spicy andflavorful chickpea curry (chhole),garnished with onions, lemon, andtangy pickles – a hearty andsatisfying meal any time of the day.",
+      price: "120 LE",
+      img: chole,
+      category: "South Indian",
+    },
+    {
+      id: 7,
+      name: "Pav Bhaji",
+      description:
+        "Pav bhaji is a popular Indian street food consisting of a spicymashed vegetable curry (bhaji)served with soft bread rolls(pav).",
+      price: "150 LE",
+      img: bhaji,
+      category: "South Indian",
+    },
+    {
+      id: 8,
+      name: "Steamed Idli",
+      description:
+        "Soft, steamed rice cakesserved with coconutchutney and hot sambar.",
+      price: "60 LE",
+      img: idli,
+      category: "South Indian",
+    },
+    {
+      id: 9,
+      name: "Mini Idli In Sambar",
+      description:
+        "Tiny idlis soaked in tangysambar and garnishedwith coriander.",
+      price: "80 LE",
+      img: miniidli,
+      category: "South Indian",
+    },
+    {
+      id: 10,
+      name: "Fried Idli",
+      description: "Crisp-fried idli cubestossed in South Indiantempering.",
+      price: "80 LE",
+      img: idli1,
+      category: "South Indian",
+    },
+    {
+      id: 11,
+      name: "Sambar",
+      description:
+        "Spicy, tangy lentil soupcooked with vegetables andtamarind — a must-havedip.",
+      price: "20 LE",
+      img: sambar,
+      category: "South Indian",
+    },
+    {
+      id: 12,
+      name: "Dahi Vada",
+      description:
+        "Lentil fritters soaked inyogurt, topped with spicesand chutney..",
+      price: "120 LE",
+      img: dahivada,
+      category: "South Indian",
+    },
+    {
+      id: 13,
+      name: "Onion Uttapam",
+      description:
+        "Thick dosa topped with finelychopped onions, chili, andcoriander.",
+      price: "100 LE",
+      img: utt,
+      category: "South Indian",
+    },
+    {
+      id: 14,
+      name: "Vegetable Uttapam",
+      description: "Soft uttapam loaded with colorful mixed vegetables",
+      price: "130 LE",
+      img: utt1,
+      category: "South Indian",
+    },
   ];
 
   const dessret = [
@@ -535,6 +677,12 @@ const TablicRes = () => {
       name: "Stobary milk shek",
       price: "220 LE",
       img: smilk,
+    },
+    {
+      id: 26,
+      name: "aavakado Juice",
+      price: "100 LE",
+      img: avocado,
     },
   ];
 
@@ -589,18 +737,16 @@ const TablicRes = () => {
         </div>
       </section>
       <div className="Menu-main-div">
-        <h1>Soft Drinks</h1>
+        <h1>Bar Menu</h1>
         <div className="card-grid">
           <div className="card">
             <img src={wine} alt="Soft Drinks" />
             <div className="card-content">
               <h3>Bar Menu</h3>
               <ul>
+                {" "}
                 <li>
-                  Apple Cedar <span>20 LE</span>
-                </li>
-                <li>
-                  Bintu<span>20 LE</span>
+                  Herbal Bitter<span>20 LE</span>
                 </li>
               </ul>
             </div>
@@ -609,28 +755,326 @@ const TablicRes = () => {
           <div className="card">
             <div className="card-content">
               <li>
-                Vitomo <span>20 LE</span>
+                Bita Kola<span>20 LE</span>
               </li>
               <li>
-                Tonic <span>20 LE</span>
+                Fruit Wine <span>25 LE</span>
+              </li>
+              <li>
+                Big Daddy <span>25 LE</span>
+              </li>
+              <li>
+                Orange Vodka<span>25 LE</span>
+              </li>
+              <li>
+                Kiss N fly (Red Wine) <span>25 LE</span>
+              </li>
+              <li>
+                Charger <span>25 LE</span>
+              </li>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-content">
+              <li>
+                Star <span>30 LE</span>
+              </li>
+              <li>
+                Cody's (300 ML) <span>30 LE</span>
+              </li>
+              <li>
+                Amstel Lager<span>35 LE</span>
+              </li>
+              <li>
+                Mutzig <span>35 LE</span>
+              </li>
+              <li>
+                Guiness<span>40 LE</span>
+              </li>
+              <li>
+                Vody <span>50 LE</span>
+              </li>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-content">
+              <ul>
+                <li>
+                  Cody's White<span>60 LE</span>
+                </li>
+                <li>
+                  Beck's <span>60 LE</span>
+                </li>
+                <li>
+                  Heineken <span>60 LE</span>
+                </li>
+                <li>
+                  Cody's Black <span>70 LE</span>
+                </li>
+                <li>
+                  Budweiser<span>70 LE</span>
+                </li>
+                <li>
+                  Carlsber <span>60 LE</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="Menu-main-div">
+        {/* <h1>Bar Menu</h1> */}
+        <div className="card-grid">
+          <div className="card">
+            <div className="card-content">
+              <ul>
+                <li className="name-border">
+                  <span>Name</span>
+                  <span></span>
+                  <span></span>
+                  <span>30 ML</span>
+                  <span>Price</span>
+                </li>
+                <li>
+                  6 PM Grain Blended
+                  <span>20 LE</span>
+                  <span>120 LE</span>
+                </li>
+                <li>
+                  Magic Sharkling
+                  <span></span>
+                  <span>20 LE</span>
+                  <span>250 LE</span>
+                </li>
+                <li>
+                  Tassenberg
+                  <span></span>
+                  <span></span>
+                  <span>20 LE</span>
+                  <span>250 LE</span>
+                </li>
+                <li>
+                  8 PM Dark Rum
+                  <span></span>
+                  <span>25 LE</span>
+                  <span>280 LE</span>
+                </li>
+                <li>
+                  8 PM Fire
+                  <span></span>
+                  <span></span>
+                  <span>30 LE</span>
+                  <span>300 LE</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <li className="name-border">
+                <span>Name</span>
+                <span></span>
+                <span></span>
+                <span>30 ML</span>
+                <span>Price</span>
+              </li>
+              <li>
+                Dom Bosco
+                <span></span>
+                <span></span>
+                <span>30 LE</span>
+                <span>300 LE</span>
+              </li>
+              <li>
+                Reserve 7<span></span>
+                <span></span>
+                <span></span>
+                <span>30 LE</span>
+                <span>300 LE</span>
+              </li>
+              <li>
+                Legend Premium
+                <span></span>
+                <span>30 LE</span>
+                <span>300 LE</span>
+              </li>
+              <li>
+                Grand Master's
+                <span></span>
+                <span>30 LE</span>
+                <span>300 LE</span>
+              </li>
+              <li>
+                The Honest Man
+                <span></span>
+                <span>30 LE</span>
+                <span>350 LE</span>
+              </li>
+              <li>
+                Magic Moment
+                <span></span>
+                <span>30 LE</span>
+                <span>350 LE</span>
+              </li>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-content">
+              <li className="name-border">
+                <span>Name</span>
+                <span></span>
+                <span></span>
+                <span>30 ML</span>
+                <span>Price</span>
+              </li>
+              <li>
+                Malibu
+                <span></span>
+                <span></span>
+                <span>40 LE</span>
+                <span>800 LE</span>
+              </li>
+              <li>
+                Ballantines
+                <span> </span>
+                {/* <span></span> */}
+                <span>45 LE</span>
+                <span>900 LE</span>
+              </li>
+              <li>
+                Red Label
+                <span></span>
+                <span></span>
+                <span>45 LE</span>
+                <span>900 LE</span>
+              </li>
+              <li>
+                Teacher's
+                <span></span>
+                <span></span>
+                <span>40 LE</span>
+                <span>950 LE</span>
+              </li>
+              <li>
+                Chapari
+                <span></span>
+                <span></span>
+                <span></span>
+                <span>30 LE</span>
+                <span>1000 LE</span>
+              </li>
+              <li>
+                Red Label
+                <span></span>
+                <span></span>
+                <span></span>
+                <span>45 LE</span>
+                <span>1000 LE</span>
+              </li>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-content">
+              <li className="name-border">
+                <span>Name</span>
+                <span></span>
+                <span></span>
+                <span>30 ML</span>
+                <span>Price</span>
+              </li>
+              <ul>
+                <li>
+                  Jameson
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span>45 LE</span>
+                  <span>1000 LE</span>
+                </li>
+                <li>
+                  Jameson
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span>50 LE</span>
+                  <span>1200 LE</span>
+                </li>
+                <li>
+                  Black Label
+                  <span></span>
+                  <span></span>
+                  <span>60 LE</span>
+                  <span>1500 LE</span>
+                </li>
+                <li>
+                  Chivas
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span>60 LE</span>
+                  <span>1700 LE</span>
+                </li>
+                <li>
+                  Double Black
+                  <span></span>
+                  <span></span>
+                  <span>70 LE</span>
+                  <span>2000 LE</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="Menu-main-div">
+        <h1>Soft Drinks</h1>
+        <div className="card-grid">
+          <div className="card">
+            <img src={wine} alt="Soft Drinks" />
+            <div className="card-content">
+              <h3>Soft Drinks</h3>
+              <ul>
+                <li>
+                  Water Bottle<span>10LE, 20 LE</span>
+                </li>
+                <li>
+                  Apple Cedae<span>20 LE</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-content">
+              <li>
+                Bintu <span>20 LE</span>
+              </li>
+              <li>
+                Viromo <span>20 LE</span>
+              </li>
+              <li>
+                Tonic<span>20 LE</span>
               </li>
               <li>
                 Tropical<span>20 LE</span>
               </li>
               <li>
-                Siera Mango <span>20 LE</span>
+                Siera Mange <span>20 LE</span>
               </li>
               <li>
                 Mega Cola <span>20 LE</span>
               </li>
               <li>
-                King Cola <span>20 LE</span>
+                King cola<span>20 LE</span>
               </li>
               <li>
                 Vandam<span>20 LE</span>
-              </li>
-              <li>
-                Commando Btl<span>20 LE</span>
               </li>
               <li>
                 24 Hours <span>20 LE</span>
@@ -648,31 +1092,31 @@ const TablicRes = () => {
               </li>
               <ul>
                 <li>
-                  Herbal Bitter<span>20 LE</span>
+                  X-Tra Tropical<span>25 LE</span>
                 </li>
                 <li>
-                  7 Up <span>25 LE</span>
+                  Commando <span>25 LE</span>
                 </li>
                 <li>
-                  Coca Cola <span>25 LE</span>
+                  Pepsi <span>30 LE</span>
                 </li>
                 <li>
-                  Herbal Bitter <span>20 LE</span>
+                  Sprite <span>30 LE</span>
                 </li>
                 <li>
-                  Bita Kola<span>20 LE</span>
+                  Cocacola<span>30 LE</span>
                 </li>
                 <li>
-                  Fruite Wine <span>25 LE</span>
+                  Fanta <span>30 LE</span>
                 </li>
                 <li>
-                  Big Daddy<span>25 LE</span>
+                  7 Up<span>30 LE</span>
                 </li>
                 <li>
-                  Orange Vodka <span>25 LE</span>
+                  Maltina <span>30 LE</span>
                 </li>
                 <li>
-                  Kiss N Fly(Red Wine) <span>25 LE</span>
+                  Vimto Fruit Flavour <span>30 LE</span>
                 </li>
               </ul>
             </div>
@@ -682,34 +1126,19 @@ const TablicRes = () => {
             <div className="card-content">
               <ul>
                 <li>
-                  charger<span>25 LE</span>
+                  Vimto Sparking <span>35 LE</span>
                 </li>
                 <li>
-                  Star<span>30 LE</span>
+                  Lucozade <span>35 LE</span>
                 </li>
                 <li>
-                  Cody's (300ML) <span>30 LE</span>
+                  Vita Milk<span>40 LE</span>
                 </li>
                 <li>
-                  Amstel Larger<span>35 LE</span>
+                  Dite Coke<span>50 LE</span>
                 </li>
                 <li>
-                  Mutzig <span>35 LE</span>
-                </li>
-                <li>
-                  GUiness<span>40 LE</span>
-                </li>
-                <li>
-                  X-Tra Tropical <span>25 LE</span>
-                </li>
-                <li>
-                  Commando<span>25 LE</span>
-                </li>
-                <li>
-                  Pepsi <span>30LE</span>
-                </li>
-                <li>
-                  Sprite <span>30 LE</span>
+                  Redbull <span>60 LE</span>
                 </li>
               </ul>
             </div>
@@ -888,7 +1317,7 @@ const TablicRes = () => {
           <div className="menu-info">
             <h2 className="menu-heading">WHAT'S INCLUDED</h2>
             <ul className="menu-list">
-              <li>PANI PURI</li>
+              <li>WATER BALL</li>
               <li>SAMOSA / VADAPAV</li>
               <li>SABJI</li>
               <li>4 ROTI</li>
@@ -909,7 +1338,7 @@ const TablicRes = () => {
               </p>
             </div>
             <div className="price-badge">
-              ₹350/- <br />
+              ₹350 LE <br />
               LIMITED
             </div>
           </div>
@@ -951,7 +1380,7 @@ const TablicRes = () => {
 
       <div className="fastfood-div">
         <h1 className="menu-title">Best Sheesha In Town</h1>
-        <p>Only 150 NLE</p>
+        <p className="center-fastfood">Only 150 LE</p>
         <div className="menu-grid">
           {sheesha.map((item, index) => (
             <div className="menu-card">
@@ -970,7 +1399,9 @@ const TablicRes = () => {
 
       <div className="fastfood-div">
         <h1 className="menu-title">We'are Selling Fresh Bread Daily</h1>
-        <p>30 LE 1 Packet small Bread, 50LE 1 Packet big bread</p>
+        <p className="center-fastfood">
+          30 LE 1 Packet small Bread, 50LE 1 Packet big bread
+        </p>
         <div className="menu-grid">
           {bread.map((item, index) => (
             <img src={item.img} alt="bread" className="menu-image" />

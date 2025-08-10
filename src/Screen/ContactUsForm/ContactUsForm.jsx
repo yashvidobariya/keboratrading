@@ -17,9 +17,9 @@ const ContactUsForm = () => {
 
   const [errors, setErrors] = useState({});
 
-  const SERVICE_ID = "service_442tce3";
-  const TEMPLATE_ID = "template_9acmwhg";
-  const PUBLIC_KEY = "4Mli6_pD_hvI2CY_W";
+  const SERVICE_ID = "service_qe5rac8";
+  const TEMPLATE_ID = "template_0ql30ti";
+  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
 
   const validate = () => {
     const newErrors = {};
@@ -112,7 +112,7 @@ const ContactUsForm = () => {
                 type="text"
                 name="phone"
                 value={formData.phone}
-                placeholder="+91"
+                placeholder="+232"
                 onChange={handleChange}
               />
             </div>
@@ -173,15 +173,13 @@ const ContactUsForm = () => {
           <h3>Kebora Trading Company Limited</h3>
           <p className="flex-contact">
             <HiOutlineLocationMarker className="icon-contact-us" />
-            <p>
-              43, KOINKAIDU ROAD NEXT TO LEGECY CLUB OPERA KOIDU SIERRA LEONE
-            </p>
+            <p>38 masembi road 555 spot koidu</p>
           </p>
           <p className="flex-contact">
             <IoMdCall className="icon-contact-us" />
-            <p>+232 33059586 </p>
+            <p>+232 79343434 </p>
           </p>
-          <p className="flext-content">
+          <p className="flex-contact">
             <IoMailUnreadSharp className="icon-contact-us" />
             <p> keboratrading@gmail.com</p>
           </p>

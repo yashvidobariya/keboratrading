@@ -54,6 +54,7 @@
 
 .second-content {
   width: calc(100% - 350px);
+  text-align: justify;
 }
 
 .first-content li {
@@ -73,6 +74,7 @@
 .second-content ul,
 .first-content ul {
   padding-left: 20px;
+  text-align: justify;
 }
 
 .second-content h3 {
@@ -92,6 +94,7 @@
 
 .second-content p {
   line-height: 1.6;
+  text-align: justify;
 }
 
 .second-content h4 {

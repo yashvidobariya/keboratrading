@@ -58,6 +58,11 @@
   text-align: left;
 }
 
+.flext-content {
+  display: flex;
+  gap: 20px;
+}
+
 .form-group-contact-full {
   display: flex;
   flex-direction: column;

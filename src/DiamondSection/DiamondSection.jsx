@@ -5,6 +5,7 @@ import diamondsection13 from "../Image/13.jpeg";
 import keboraImage from "../Image/17.jpeg";
 import logoImage from "../Image/16.jpeg";
 import { useNavigate } from "react-router-dom";
+import Restorant from "../Restorant";
 
 const DiamondSection = () => {
   const navigate = useNavigate();
@@ -157,6 +158,7 @@ const DiamondSection = () => {
           <img src={logoImage} alt="Kebora Finance Services" />
         </div>
       </div>
+      <Restorant />
     </>
   );
 };

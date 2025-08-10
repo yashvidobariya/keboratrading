@@ -3,8 +3,9 @@ import emailjs from "@emailjs/browser";
 import logo from "../Image/15.jpeg";
 import "./ContactUs.css";
 import { IoMail, IoCall, IoLocationSharp } from "react-icons/io5";
-import res from "../Image/res.jpeg";
+// import res from "../Image/res.jpeg";
 import { useNavigate } from "react-router-dom";
+import Restorant from "../Restorant";
 
 const ContactUs = () => {
   const navigate = useNavigate();
@@ -17,9 +18,9 @@ const ContactUs = () => {
     question: "",
   });
 
-  const SERVICE_ID = "service_442tce3";
-  const TEMPLATE_ID = "template_9acmwhg";
-  const PUBLIC_KEY = "4Mli6_pD_hvI2CY_W";
+  const SERVICE_ID = "service_qe5rac8";
+  const TEMPLATE_ID = "template_0ql30ti";
+  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
 
   const [errors, setErrors] = useState({});
 
@@ -84,61 +85,9 @@ const ContactUs = () => {
     }
   };
 
-  const handlekoberaDaimond = () => {
-    navigate("/tablic-restaurants");
-  };
-
   return (
     <>
-      <div className="diamond-section reasutant-section">
-        <div className="image-container">
-          <img src={res} alt="Kebora Diamond" />
-        </div>
-        <div className="text-container">
-          <h2>KEBORA TABLIC RESTAURANTS</h2>
-          <p>
-            Welcome to Kebora & Tablic Restaurant, where we redefine
-            all-vegetarian dining with a commitment to exceptional flavor and
-            uncompromising hygiene. Whether you're joining us for a meal in our
-            spotless restaurant, celebrating a special occasion, or enjoying our
-            delicious food at home, we've got you covered. We're proud to offer:
-          </p>
-          <ul>
-            <li>
-              100% Vegetarian Delights: A diverse and vibrant menu crafted with
-              the freshest ingredients.
-            </li>
-            <li>
-              Impeccable Hygiene: Your health and safety are our top priority.
-            </li>
-            <li>
-              Full-Service Bar: Complement your meal with our extensive
-              selection of beers, wines, whiskies, champagnes, and soft drinks.
-            </li>
-            <li>
-              Special Event Hosting: Let us make your birthday parties and
-              anniversary celebrations truly memorable in our perfect venue.
-            </li>
-            <li>
-              Convenient Home Delivery: Enjoy your favorite dishes from Kebora &
-              Tablic delivered right to your doorstep.
-            </li>
-          </ul>
-          <p>
-            Ready to experience the Kebora & Tablic difference or plan your next
-            event?
-          </p>
-          <p>
-            Contact <strong>Vishal Rudani</strong> at{" "}
-            <strong>+23233 059586 </strong>
-            for reservations, delivery, or party bookings. We look forward to
-            serving you!
-          </p>
-          <div className="diamondsection-button">
-            <button onClick={handlekoberaDaimond}>Learn more</button>
-          </div>
-        </div>
-      </div>
+      {/* <Restorant /> */}
       <div className="contact-us">
         <div className="contact-left">
           <img
@@ -194,7 +143,7 @@ const ContactUs = () => {
                 type="text"
                 name="phone"
                 value={formData.phone}
-                placeholder="+91"
+                placeholder="+232"
                 onChange={handleChange}
               />
             </div>

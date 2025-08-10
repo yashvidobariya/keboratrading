@@ -52,16 +52,16 @@ const Header = () => {
               KEBORA FINANCE
             </NavLink>
             <NavLink
-              to="/contactus"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
-              CONTACT US
-            </NavLink>
-            <NavLink
               to="/tablic-restaurants"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               KEBORA TABLIC RESTAURANTS
+            </NavLink>
+            <NavLink
+              to="/contactus"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              CONTACT US
             </NavLink>
           </div>
           <div className="navbar-firstline-right">
@@ -120,7 +120,7 @@ const Header = () => {
                 </span>
               </div>
               <NavLink to="/" onClick={handleMenuClose}>
-                Home
+                HOME
               </NavLink>
               <NavLink to="/kebora-diamond" onClick={handleMenuClose}>
                 KEBORA DIAMOND
@@ -138,7 +138,7 @@ const Header = () => {
                 KEBORA TABLIC RESTAURANTS
               </NavLink>
               <NavLink to="/contactus" onClick={handleMenuClose}>
-                Contact Us
+                CONTACT US
               </NavLink>
               <div className="mobile-contact">
                 <p>📧 keboraoxygen@gmail.com</p>
