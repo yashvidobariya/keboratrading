@@ -1,18 +1,21 @@
 import React, { useState } from "react";
 import "./Header.css";
 import myImage from "../Image/15.jpeg";
-import { NavLink } from "react-router-dom";
-import { FaSearch } from "react-icons/fa";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const navigate = useNavigate();
   const handleMenuToggle = () => {
     setIsMenuOpen((prev) => !prev);
   };
 
   const handleMenuClose = () => {
     setIsMenuOpen(false);
+  };
+
+  const handlecontact = () => {
+    navigate("/contactus");
   };
 
   return (
@@ -91,7 +94,9 @@ const Header = () => {
           </div>
 
           <div className="navbar-secondline-right hide-on-mobile">
-            <button className="navbar-contact-button">Contact Us</button>
+            <button className="navbar-contact-button" onClick={handlecontact}>
+              Contact Us
+            </button>
           </div>
 
           <div className="menu-icon" onClick={handleMenuToggle}>
