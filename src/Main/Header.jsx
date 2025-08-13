@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
 import myImage from "../Image/15.jpeg";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
   const navigate = useNavigate();
   const handleMenuToggle = () => {
     setIsMenuOpen((prev) => !prev);
@@ -30,19 +31,49 @@ const Header = () => {
             >
               HOME
             </NavLink>
-            <NavLink
-              to="/kebora-diamond"
-              className={({ isActive }) => (isActive ? "active" : "")}
+            <select
+              className={
+                location.pathname.startsWith("/kebora") ? "active" : ""
+              }
+              value={location.pathname}
+              onChange={(e) => {
+                navigate(e.target.value);
+              }}
             >
-              KEBORA DIAMOND
-            </NavLink>
-            <NavLink
-              to="/kebora-machines"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
-              KEBORA MACHINES
-            </NavLink>
-            <NavLink
+              <option
+                value="/kebora-diamond"
+                className={
+                  location.pathname === "/kebora-diamond" ? "active" : ""
+                }
+              >
+                KEBORA DIAMOND
+              </option>
+              <option
+                value="/kebora-machines"
+                className={
+                  location.pathname === "/kebora-machines" ? "active" : ""
+                }
+              >
+                KEBORA MACHINES
+              </option>
+              <option
+                value="/kebora-gas-supply"
+                className={
+                  location.pathname === "/kebora-gas-supply" ? "active" : ""
+                }
+              >
+                KEBORA GAS SUPPLY
+              </option>
+              <option
+                value="/kebora-finance"
+                className={
+                  location.pathname === "/kebora-finance" ? "active" : ""
+                }
+              >
+                KEBORA FINANCE
+              </option>
+            </select>
+            {/* <NavLink
               to="/kebora-gas-supply"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
@@ -53,12 +84,42 @@ const Header = () => {
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               KEBORA FINANCE
+            </NavLink> */}
+            <NavLink
+              to="/dhl"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              DHL EXPRESS
+            </NavLink>
+            <NavLink
+              to="/carrental"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              CAR RENTAL
+            </NavLink>
+            <NavLink
+              to="/internationalflight"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              FLIGHT BOOKING
             </NavLink>
             <NavLink
               to="/tablic-restaurants"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               KEBORA TABLIC RESTAURANTS
+            </NavLink>
+            <NavLink
+              to="/photogallery"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              PHOTO GALLERY
+            </NavLink>
+            <NavLink
+              to="/teammember"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              TEAM MEMBER
             </NavLink>
             <NavLink
               to="/contactus"
@@ -139,8 +200,23 @@ const Header = () => {
               <NavLink to="/kebora-finance" onClick={handleMenuClose}>
                 KEBORA FINANCE
               </NavLink>
+              <NavLink to="/dhl" onClick={handleMenuClose}>
+                DHL EXPRESS
+              </NavLink>
+              <NavLink to="/carrental" onClick={handleMenuClose}>
+                CAR RENTAL
+              </NavLink>
+              <NavLink to="/internationalflight" onClick={handleMenuClose}>
+                FLIGHT BOOKING
+              </NavLink>
               <NavLink to="/tablic-restaurants" onClick={handleMenuClose}>
                 KEBORA TABLIC RESTAURANTS
+              </NavLink>
+              <NavLink to="/photogallery" onClick={handleMenuClose}>
+                PHOTO GALLERY
+              </NavLink>
+              <NavLink to="/teammember" onClick={handleMenuClose}>
+                TEAM MEMBERS
               </NavLink>
               <NavLink to="/contactus" onClick={handleMenuClose}>
                 CONTACT US

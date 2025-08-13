@@ -10,6 +10,11 @@ import ContactUsForm from "./Screen/ContactUsForm/ContactUsForm";
 import Policy from "../src/Screen/Policy/Policy";
 import ScrollToTop from "./Main/ScrollToTop";
 import TablicRes from "./Screen/TablicRes/TablicRes";
+import DHL from "./Screen/DHL";
+import CarRental from "./Screen/CarRental";
+import InternationFlight from "./Screen/InternationaFlight";
+import PhotoGallery from "./Screen/PhotoGallery";
+import TeamMember from "./Screen/TeamMember";
 
 function App() {
   return (
@@ -31,7 +36,15 @@ function App() {
           <Route path="/kebora-finance" element={<KeboraFinance />}></Route>
           <Route path="/contactus" element={<ContactUsForm />}></Route>
           <Route path="/policy" element={<Policy />}></Route>
+          <Route path="/dhl" element={<DHL />}></Route>
+          <Route path="/carrental" element={<CarRental />}></Route>
+          <Route
+            path="/internationalflight"
+            element={<InternationFlight />}
+          ></Route>
           <Route path="/tablic-restaurants" element={<TablicRes />}></Route>
+          <Route path="/photogallery" element={<PhotoGallery />}></Route>
+          <Route path="/teammember" element={<TeamMember />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

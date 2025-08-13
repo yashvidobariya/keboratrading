@@ -16,6 +16,19 @@
   /* object-fit: contain; */
 }
 
+.font-size {
+  font-size: 30px !important;
+  color: var(--button-blue-color) !important;
+  font-weight: bold;
+}
+
+.contact-if {
+  align-items: flex-start !important;
+}
+.car-rental1 {
+  background-color: white !important;
+}
+
 .keboradiamond-main {
   width: 100%;
 }
