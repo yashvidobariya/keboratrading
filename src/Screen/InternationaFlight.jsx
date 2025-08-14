@@ -1,6 +1,6 @@
 import React from "react";
-import img2 from "../Image/dh.png";
-import img1 from "../Image/dhl1.png";
+import img2 from "../Image/flight.png";
+import img1 from "../Image/benifit.png";
 
 const InternationFlight = () => {
   return (
@@ -24,23 +24,23 @@ const InternationFlight = () => {
           </p>
           <ul>
             <li>
-              *Search and Compare:* Instantly search for flights based on your
+              Search and Compare: Instantly search for flights based on your
               origin, destination, and travel dates. You can easily compare
               prices, airlines, flight durations, and layovers.
             </li>
             <li>
-              *Book and Pay:* Securely book your chosen flight and make a
-              payment using various methods, such as credit cards, debit cards,
-              or digital wallets.
+              Book and Pay: Securely book your chosen flight and make a payment
+              using various methods, such as credit cards, debit cards, or
+              digital wallets.
             </li>
             <li>
-              *Manage Your Booking:* After booking, you can manage your
+              Manage Your Booking: After booking, you can manage your
               reservation online, including checking in, making changes to your
               itinerary (subject to airline policies), and viewing your
               e-ticket.
             </li>
             <li>
-              *Access Additional Services:* The platform may also offer
+              Access Additional Services: The platform may also offer
               supplementary services like travel insurance, hotel bookings, car
               rentals, and information on visa requirements and baggage
               policies.
@@ -53,34 +53,34 @@ const InternationFlight = () => {
           </p>
           <ul>
             <li>
-              *Leisure Travelers:* Individuals, couples, and families planning
+              Leisure Travelers: Individuals, couples, and families planning
               vacations, holidays, or trips to visit friends and relatives
               abroad. This group often prioritizes finding the best deals and
               flexible booking options.
             </li>
             <li>
-              *Business Travelers:* Professionals and corporate employees who
-              need to travel for work-related purposes, such as meetings,
+              Business Travelers: Professionals and corporate employees who need
+              to travel for work-related purposes, such as meetings,
               conferences, or company assignments. They typically value
               convenience, direct flights, and premium cabin classes like
               business or first class.
             </li>
             <li>
-              *Students:* Students traveling for academic purposes, including
+              Students: Students traveling for academic purposes, including
               study abroad programs, internships, or returning home for
               holidays. They are often budget-conscious and look for affordable
               fares and student-specific discounts.
             </li>
             <li>
-              *Frequent Flyers and Loyalty Program Members:* Individuals who
+              Frequent Flyers and Loyalty Program Members: Individuals who
               travel frequently and are part of airline or credit card loyalty
               programs. They are interested in earning and redeeming points, as
               well as accessing exclusive benefits and deals.
             </li>
             <li>
-              *Travel Agents and Agencies:* B2B customers who use these
-              platforms to book flights and other travel services on behalf of
-              their own clients.
+              Travel Agents and Agencies: B2B customers who use these platforms
+              to book flights and other travel services on behalf of their own
+              clients.
             </li>
           </ul>
         </div>
@@ -94,41 +94,40 @@ const InternationFlight = () => {
             </p>
             <ul>
               <li>
-                *Real-time Availability and Pricing:* Provides up-to-the-minute
+                Real-time Availability and Pricing: Provides up-to-the-minute
                 information on flight schedules, seat availability, and ticket
                 prices to prevent overbooking and ensure transparency.
               </li>
               <li>
-                *Advanced Search Filters:* Allows users to refine their search
-                by various criteria, such as airline, number of stops,
+                Advanced Search Filters: Allows users to refine their search by
+                various criteria, such as airline, number of stops,
                 departure/arrival times, price range, and cabin class.
               </li>
               <li>
-                *Multi-city and Flexible Date Search:* Enables complex
+                Multi-city and Flexible Date Search:* Enables complex
                 itineraries and helps users find the cheapest days to fly by
                 showing a calendar view of fares.
               </li>
               <li>
-                *Secure Payment Gateway:* Offers a safe and reliable way to
+                Secure Payment Gateway: Offers a safe and reliable way to
                 process payments with multiple payment options.
               </li>
               <li>
-                *Price Alerts and Fare Tracking:* Notifies users of price
-                changes for their desired routes, helping them book at the
-                optimal time.
+                Price Alerts and Fare Tracking: Notifies users of price changes
+                for their desired routes, helping them book at the optimal time.
               </li>
               <li>
-                *Mobile Responsiveness and App:* A user-friendly interface that
+                Mobile Responsiveness and App: A user-friendly interface that
                 works seamlessly on desktops, tablets, and mobile phones, often
                 with a dedicated mobile app for convenience.
               </li>
               <li>
-                *Customer Support:* Provides 24/7 support through various
-                channels (phone, email, live chat) to assist with bookings,
-                changes, and cancellations.
+                Customer Support: Provides 24/7 support through various channels
+                (phone, email, live chat) to assist with bookings, changes, and
+                cancellations.
               </li>
               <li>
-                *Information Hub:* A resource for essential international travel
+                Information Hub: A resource for essential international travel
                 details, including passport and visa requirements, baggage
                 allowances, and in-flight services.
               </li>
@@ -148,24 +147,24 @@ const InternationFlight = () => {
           </p>
           <ul>
             <li>
-              *Convenience and Time-Saving:* Book flights anytime, anywhere,
+              Convenience and Time-Saving: Book flights anytime, anywhere,
               without the need to visit a physical travel agency.
             </li>
             <li>
-              *Cost-Effectiveness:* Easily compare prices from multiple airlines
+              Cost-Effectiveness: Easily compare prices from multiple airlines
               and OTAs to find the best deals and save money.
             </li>
             <li>
-              *Flexibility:* Many platforms offer flexible fare options that
-              allow for changes or cancellations, providing peace of mind in
-              case plans change.
+              Flexibility: Many platforms offer flexible fare options that allow
+              for changes or cancellations, providing peace of mind in case
+              plans change.
             </li>
             <li>
-              *Comprehensive Information:* Access all the necessary details for
+              Comprehensive Information: Access all the necessary details for
               your trip in one place, from flight schedules to visa rules.
             </li>
             <li>
-              *Personalized Experience:* Some platforms use AI and machine
+              Personalized Experience: Some platforms use AI and machine
               learning to recommend flights and travel add-ons based on your
               preferences.
             </li>
@@ -177,26 +176,26 @@ const InternationFlight = () => {
           <h2>Why Choose Us</h2>
           <ul>
             <li>
-              *Extensive Network:* We have access to a vast network of global
+              Extensive Network: We have access to a vast network of global
               airlines, offering you a wide range of choices for any
               destination.
             </li>
             <li>
-              *Competitive Pricing:* Our advanced search technology ensures you
+              Competitive Pricing: Our advanced search technology ensures you
               get the most competitive fares by comparing prices across all
               major providers.
             </li>
             <li>
-              *User-Friendly Platform:* Our intuitive website and mobile app
-              make the booking process simple and stress-free.
+              User-Friendly Platform: Our intuitive website and mobile app make
+              the booking process simple and stress-free.
             </li>
             <li>
-              *Dedicated 24/7 Support:* Our team of experienced travel
-              consultants is available around the clock to assist you with any
-              questions or issues.
+              Dedicated 24/7 Support: Our team of experienced travel consultants
+              is available around the clock to assist you with any questions or
+              issues.
             </li>
             <li>
-              *Secure and Reliable:* We prioritize the security of your data and
+              Secure and Reliable: We prioritize the security of your data and
               transactions, ensuring a safe booking experience.
             </li>
           </ul>
@@ -208,10 +207,10 @@ const InternationFlight = () => {
             following channels:
           </p>
           <ul>
-            <li>*Email:* [insert email address]</li>
-            <li>*Phone:* [insert phone number]</li>
-            <li>*Live Chat:* [provide link to live chat]</li>
-            <li>*Social Media:* [list social media handles]</li>
+            <li>Email: [insert email address]</li>
+            <li>Phone: [insert phone number]</li>
+            <li>Live Chat: [provide link to live chat]</li>
+            <li>Social Media: [list social media handles]</li>
           </ul>
           {/* <img src={img2} alt="fin-Kebora Diamond " /> */}
         </div>

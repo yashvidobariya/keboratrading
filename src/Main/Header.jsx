@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import "./Header.css";
 import myImage from "../Image/15.jpeg";
+import { MdOutlineArrowDropDown } from "react-icons/md";
+
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsOpen(false);
+  };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
@@ -19,6 +26,15 @@ const Header = () => {
     navigate("/contactus");
   };
 
+  const tradingRoutes = [
+    "/kebora-diamond",
+    "/kebora-machines",
+    "/kebora-gas-supply",
+    "/kebora-finance",
+  ];
+
+  const isTradingActive = tradingRoutes.includes(location.pathname);
+
   return (
     <div className="header-main-div">
       <div className="header-container">
@@ -31,48 +47,50 @@ const Header = () => {
             >
               HOME
             </NavLink>
-            <select
-              className={
-                location.pathname.startsWith("/kebora") ? "active" : ""
-              }
-              value={location.pathname}
-              onChange={(e) => {
-                navigate(e.target.value);
-              }}
-            >
-              <option
-                value="/kebora-diamond"
-                className={
-                  location.pathname === "/kebora-diamond" ? "active" : ""
-                }
+            <div className="dropdown">
+              <button
+                className={`dropdown-btn ${isTradingActive ? "active" : ""}`}
+                onClick={() => setIsOpen(!isOpen)}
               >
-                KEBORA DIAMOND
-              </option>
-              <option
-                value="/kebora-machines"
-                className={
-                  location.pathname === "/kebora-machines" ? "active" : ""
-                }
-              >
-                KEBORA MACHINES
-              </option>
-              <option
-                value="/kebora-gas-supply"
-                className={
-                  location.pathname === "/kebora-gas-supply" ? "active" : ""
-                }
-              >
-                KEBORA GAS SUPPLY
-              </option>
-              <option
-                value="/kebora-finance"
-                className={
-                  location.pathname === "/kebora-finance" ? "active" : ""
-                }
-              >
-                KEBORA FINANCE
-              </option>
-            </select>
+                KEBORA TRADING{" "}
+                <div className="icon-dropdown">
+                  <MdOutlineArrowDropDown />
+                </div>
+              </button>
+
+              {isOpen && (
+                <div className="dropdown-content">
+                  <NavLink
+                    to="/kebora-diamond"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    KEBORA DIAMOND
+                  </NavLink>
+                  <NavLink
+                    to="/kebora-machines"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    KEBORA MACHINES
+                  </NavLink>
+                  <NavLink
+                    to="/kebora-gas-supply"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    KEBORA GAS SUPPLY
+                  </NavLink>
+                  <NavLink
+                    to="/kebora-finance"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    KEBORA FINANCE
+                  </NavLink>
+                </div>
+              )}
+            </div>
             {/* <NavLink
               to="/kebora-gas-supply"
               className={({ isActive }) => (isActive ? "active" : "")}

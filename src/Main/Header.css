@@ -18,7 +18,7 @@
 .navbar-firstline-left,
 .navbar-firstline-right {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 18px;
 }
 
@@ -219,6 +219,57 @@
 .navbar-firstline-left select option {
   padding: 20px !important;
   background-color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  padding: 0px !important;
+  cursor: pointer;
+  color: var(--h1-color);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--white-bg);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-btn {
+  display: flex;
+  gap: 5px;
+  align-items: anchor-center;
+}
+
+.icon-dropdown {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--h1-color);
+}
+
+.dropdown-content a:hover {
+  background-color: var(--button-blue-color);
+  color: var(--white-bg);
 }
 
 .navbar-firstline-left select:focus {
