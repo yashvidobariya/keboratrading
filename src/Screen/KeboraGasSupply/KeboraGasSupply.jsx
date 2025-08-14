@@ -95,7 +95,7 @@ const KeboraGasSupply = () => {
         <div
           className="diamond-flex-gas"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/Image/bggas.png)`,
+            backgroundImage: "/Image/bggas.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
