@@ -674,7 +674,7 @@ const TablicRes = () => {
     },
     {
       id: 25,
-      name: "Stobary milk shek",
+      name: "strawberry milk shek",
       price: "220 LE",
       img: smilk,
     },
