@@ -115,6 +115,12 @@
   margin: 10px 0;
 }
 
+.dhl-express,
+.car-retnal,
+.international-flight {
+  line-height: 1.6;
+}
+
 @media (max-width: 1200px) {
   .second-content {
     width: calc(100% - 500px);
@@ -203,7 +209,10 @@
   .second-content p,
   .second-content li,
   .first-content li,
-  .center-flex p {
+  .center-flex p ,
+   .dhl-express,
+  .car-retnal,
+  .international-flight{
     font-size: 12px;
     line-height: 1.4;
     margin: 7px 0;
