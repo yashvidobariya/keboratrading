@@ -1,16 +1,7 @@
 import React from "react";
 import "../Screen/Photogallery.css";
 
-const images = [
-  "https://picsum.photos/id/1018/400/300",
-  "https://picsum.photos/id/1015/400/300",
-  "https://picsum.photos/id/1019/400/300",
-  "https://picsum.photos/id/1020/400/300",
-  "https://picsum.photos/id/1021/400/300",
-  "https://picsum.photos/id/1022/400/300",
-  "https://picsum.photos/id/1023/400/300",
-  "https://picsum.photos/id/1024/400/300",
-];
+const images = Array.from({ length: 62 }, (_, i) => `/Image/t${i + 1}.jpeg`);
 
 export default function PhotoGallery() {
   return (
