@@ -67,26 +67,28 @@ const teamMembers = [
 
 export default function TeamMember() {
   return (
-    <div className="gallery-container-team">
-      {teamMembers.map((member, index) => (
-        <div className="gallery-item-team" key={index}>
-          <img src={member.src} alt={`Gallery-team ${index + 1}`} />
-          <div className="overlay-team">
-            <h2>{member.name}</h2>
-            <h4>{member.position}</h4>
-            <p>{member.content}</p>
-            <p>{member.content1}</p>
-            <p>{member.content2}</p>
-            {/* <h6>{member.contact}</h6> */}
-            <a
-              href={`tel:${member.contact}`}
-              style={{ textDecoration: "none" }}
-            >
-              <button>Mo: {member.contact}</button>
-            </a>
+    <>
+      <div className="gallery-container-team">
+        {teamMembers.map((member, index) => (
+          <div className="gallery-item-team" key={index}>
+            <img src={member.src} alt={`Gallery-team ${index + 1}`} />
+            <div className="overlay-team">
+              <h2>{member.name}</h2>
+              <h4>{member.position}</h4>
+              <p>{member.content}</p>
+              <p>{member.content1}</p>
+              <p>{member.content2}</p>
+              {/* <h6>{member.contact}</h6> */}
+              <a
+                href={`tel:${member.contact}`}
+                style={{ textDecoration: "none" }}
+              >
+                <button>Mo: {member.contact}</button>
+              </a>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </>
   );
 }
