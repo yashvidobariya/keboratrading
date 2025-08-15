@@ -16,7 +16,7 @@ const InternationFlight = () => {
             Distribution System (GDS).
           </p>
           <h4>What it Dose</h4>
-          <p>
+           <p className="international-flight">
             An international flight booking platform acts as a one-stop-shop for
             travelers. It aggregates flight data, including fares, schedules,
             and availability, from various airlines to provide users with a
