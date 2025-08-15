@@ -500,11 +500,11 @@ const TablicRes = () => {
   const hakka = [
     {
       id: 27,
-      name: "Hawakado Toast",
+      name: "avocado Toast",
       description:
         "Avocado toast is a simple, open-faced sandwich consisting of toasted bread topped with mashed or sliced avocado, often with additional toppings like tomato and lettuce.",
       price: "100 LE",
-      img: hawakado,
+      img: avocado,
       category: "Sides & Toast",
     },
     {
@@ -674,7 +674,7 @@ const TablicRes = () => {
     },
     {
       id: 25,
-      name: "Stobary milk shek",
+      name: "strawberry milk shek",
       price: "220 LE",
       img: smilk,
     },
@@ -1253,7 +1253,7 @@ const TablicRes = () => {
       </div>
 
       <div className="fastfood-div">
-        <h1 className="menu-title">Hawakado Toast</h1>
+{/*         <h1 className="menu-title">Hawakado Toast</h1> */}
         <div className="menu-grid">
           {sandwichitem.map((item, index) => (
             <div className="menu-card">
