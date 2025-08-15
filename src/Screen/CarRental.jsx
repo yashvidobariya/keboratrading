@@ -45,7 +45,7 @@ const CarRental = () => {
         <div className="fin-text-container">
           <h2 className="font-size">Car Rental</h2>
           <h4>What it does</h4>
-          <p>
+            <p className="car-retnal">
             A car rental company provides a convenient service for renting
             automobiles for a short period, typically from a few hours to
             several weeks. This allows individuals and businesses to have
