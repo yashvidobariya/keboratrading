@@ -8,7 +8,7 @@ const InternationFlight = () => {
       <div className="fin-diamond-section  dhl money-gram car-rental">
         <div className="fin-text-container">
           <h2 className="font-size">International Flight Booking</h2>
-          <p>
+          <p className="international-flight">
             International flight booking is the process of reserving and
             purchasing air tickets for travel between two different countries.
             This can be done directly through an airline's website, or more
