@@ -7,7 +7,7 @@ const DHL = () => {
       <div className="fin-diamond-section  dhl money-gram car-rental">
         <div className="fin-text-container">
           <h2 className="font-size">DHL Express</h2>
-          <p>
+          <p className="dhl-express">
             What it does DHL Express is a global leader in international express
             shipping, courier, and mail services. It provides time-definite,
             door-to-door delivery of documents and parcels to over 220 countries
