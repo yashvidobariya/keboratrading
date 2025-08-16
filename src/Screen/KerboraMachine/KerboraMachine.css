@@ -203,6 +203,10 @@
   .second-content li {
     margin: 5px 0;
   }
+
+  .main-content {
+    padding-left: 0px !important;
+  }
 }
 
 @media (max-width: 420px) {
@@ -213,5 +217,9 @@
 
   .main-content {
     padding: 0;
+  }
+
+  .main-content {
+    padding-left: 0px !important;
   }
 }

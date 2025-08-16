@@ -67,7 +67,7 @@
 
 .second-content {
   width: calc(100% - 350px);
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .first-content li {
@@ -209,10 +209,10 @@
   .second-content p,
   .second-content li,
   .first-content li,
-  .center-flex p ,
-   .dhl-express,
+  .center-flex p,
+  .dhl-express,
   .car-retnal,
-  .international-flight{
+  .international-flight {
     font-size: 12px;
     line-height: 1.4;
     margin: 7px 0;

@@ -196,6 +196,7 @@
 
   .fin-diamond-section {
     padding: 20px 40px !important;
+    gap: 5px;
   }
 
   .contact-left p,
@@ -256,5 +257,6 @@
   .fin-diamond-section,
   .kebora-container-last {
     padding: 20px !important;
+    gap: 0px;
   }
 }

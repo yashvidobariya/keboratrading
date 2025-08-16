@@ -306,21 +306,6 @@ const KeboraMachines = () => {
                 Hassle‑Free Logistics – We handle the machinery so you can
                 handle the work
               </li>
-              {/* </ol> */}
-
-              <h3>Contact Us</h3>
-              <p>
-                Ready to get started? Reach out to Kebora Machines today for
-                bookings, quotes, or more information. Let us help move your
-                business forward — because our business is to give you business.
-                Call/WhatsApp: +232 74 23 21 28
-              </p>
-              <p>
-                Email id:{" "}
-                <a href="mailto:keboramachines@gmail.com">
-                  keboramachines@gmail.com
-                </a>
-              </p>
             </ol>
           </div>
         </div>
@@ -334,16 +319,14 @@ const KeboraMachines = () => {
           />
           <h2>Contact Us</h2>
           <p>
-            <strong>Kebora Trading Company Limited</strong> serves as the
-            umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, and financial services. We are
-            committed to excellence, reliability, and fostering strong client
-            relationships across all our operations.​​
+            Ready to get started? Reach out to Kebora Machines today for
+            bookings, quotes, or more information. Let us help move your
+            business forward — because our business is to give you business.
           </p>
           <div className="contact-details">
             <div className="icon-content">
               <IoMail className="icon-contactus" />
-              <a href="mailto:keboraoxygen@gmail.com">
+              <a href="mailto:keboramachines@gmail.com">
                 keboramachines@gmail.com
               </a>
             </div>
@@ -351,8 +334,8 @@ const KeboraMachines = () => {
               <IoCall className="icon-contactus" /> +232 74 23 21 28
             </div>
             <div className="icon-content">
-              <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
-              spot koidu
+              <IoLocationSharp className="icon-contactus" /> 338 misingbi road
+              Kono Eastern-kono
             </div>
           </div>
         </div>

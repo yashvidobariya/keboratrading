@@ -7,9 +7,9 @@ const teamMembers = [
     name: "Pradeep Borada",
     position: "Founder of kebora– Kebora Trading Company",
     content:
-      "Pradip Borda founded Kebora Trading Company in 2014 with a strong vision to build a dynamic, multi-industry business that delivers quality, trust, and innovation. Under his leadership, Kebora has grown into a versatile company with operations spanning several key sectors: diamond trading, industrial machinery, medical and industrial gas supply, car rental services, money transfer, flight booking, and hospitality (restaurant business).",
+      "Pradeep Borada founded Kebora Trading Company in 2014 with a strong vision to build a dynamic, multi-industry business that delivers quality, trust, and innovation. Under his leadership, Kebora has grown into a versatile company with operations spanning several key sectors: diamond trading, industrial machinery, medical and industrial gas supply, car rental services, money transfer, flight booking, and hospitality (restaurant business).",
     content1:
-      "With over a decade of entrepreneurial experience, Pradip has successfully positioned Kebora as a trusted name across both local and international markets. His ability to adapt to changing market needs, build reliable partnerships, and lead diverse teams has been critical to the company’s continued growth and success.",
+      "With over a decade of entrepreneurial experience, Pradeep has successfully positioned Kebora as a trusted name across both local and international markets. His ability to adapt to changing market needs, build reliable partnerships, and lead diverse teams has been critical to the company’s continued growth and success.",
     content2:
       "Driven by a passion for service excellence and long-term sustainability, Pradip remains deeply involved in every aspect of the business, ensuring that Kebora Trading Company maintains its reputation for quality, transparency, and customer satisfaction.",
     contact: "+232 88 196548",

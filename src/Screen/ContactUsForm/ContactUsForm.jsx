@@ -173,7 +173,7 @@ const ContactUsForm = () => {
           <h3>Kebora Trading Company Limited</h3>
           <p className="flex-contact">
             <HiOutlineLocationMarker className="icon-contact-us" />
-            <p>38 masembi road 555 spot koidu</p>
+            <p>38 misingbi road Kono Eastern-kono</p>
           </p>
           <p className="flex-contact">
             <IoMdCall className="icon-contact-us" />

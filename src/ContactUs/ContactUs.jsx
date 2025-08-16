@@ -99,7 +99,7 @@ const ContactUs = () => {
           <p>
             <strong>Kebora Trading Company Limited</strong> serves as the
             umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, and financial services. We are
+            trading, machinery, gas supply, financial services and restaurant. We are
             committed to excellence, reliability, and fostering strong client
             relationships across all our operations.​​
           </p>
@@ -114,8 +114,8 @@ const ContactUs = () => {
               <IoCall className="icon-contactus" /> +232 79343434
             </div>
             <div className="icon-content">
-              <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
-              spot koidu
+              <IoLocationSharp className="icon-contactus" /> 38 misingbi road
+              Kono Eastern-kono
             </div>
           </div>
         </div>

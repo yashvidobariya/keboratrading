@@ -95,9 +95,6 @@ const KeboraDiamond = () => {
           <h1>
             Kebora Diamond - Premier Diamond & Gold Trading from Sierra Leone
           </h1>
-          <p>
-            Kebora Diamond - Premier Diamond & Gold Trading from Sierra Leone
-          </p>
         </div>
       </div>
       <div className="main-content-diamond">

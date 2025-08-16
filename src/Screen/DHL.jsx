@@ -197,11 +197,11 @@ const DHL = () => {
           />
           <h2>Contact Us</h2>
           <p>
-            <strong>DHL Express</strong>
+            <strong>Kebora Trading Company Limited </strong>
             serves as the umbrella for a diverse portfolio of businesses,
-            including diamond trading, machinery, gas supply, and financial
-            services. We are committed to excellence, reliability, and fostering
-            strong client relationships across all our operations.​​
+            including diamond trading, machinery, gas supply, financial services
+            and restaurant. We are committed to excellence, reliability, and
+            fostering strong client relationships across all our operations.​​
           </p>
           <div className="contact-details">
             <div className="icon-content">
@@ -211,11 +211,11 @@ const DHL = () => {
               </a>
             </div>
             <div className="icon-content">
-              <IoCall className="icon-contactus" /> +232 79343434
+              <IoCall className="icon-contactus" /> +232 33 059586
             </div>
             <div className="icon-content">
-              <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
-              spot koidu
+              <IoLocationSharp className="icon-contactus" /> 38 misingbi road
+              Kono Eastern-kono
             </div>
           </div>
         </div>

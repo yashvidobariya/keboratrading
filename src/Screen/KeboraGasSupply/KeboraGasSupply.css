@@ -472,7 +472,8 @@ li {
   .gas-image-container p,
   .Diamond-ul,
   .keboragassupply p,
-  .contact-left p {
+  .contact-left p,
+  .gas-text-container {
     font-size: 12px;
     margin: 10px 0;
   }

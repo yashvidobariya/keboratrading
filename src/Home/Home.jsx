@@ -21,9 +21,9 @@ function Home() {
           <p>
             Kebora Trading Company Limited serves as the umbrella for a diverse
             portfolio of businesses, including diamond trading, machinery, gas
-            supply, and financial services. We are committed to excellence,
-            reliability, and fostering strong client relationships across all
-            our operations.
+            supply, and financial services and Restaurant. We are committed to
+            excellence, reliability, and fostering strong client relationships
+            across all our operations.
           </p>
         </div>
       </div>
@@ -80,6 +80,30 @@ function Home() {
           <div className="car-container">
             <img src={img1} alt="fin-Kebora Diamond " />
           </div>
+          <h2>DHL - Dalsey, Hillblom and Lynn</h2>
+          <p>"Your Trusted Partner in Every Shipment"</p>
+          <h4>1. Express Parcel Delivery</h4>
+          <p>
+            Fast and reliable delivery of documents and parcels worldwide with
+            guaranteed transit times.
+          </p>
+          <h4>2. Freight Shipping Solutions</h4>
+          <p>
+            Comprehensive air, sea, and road freight services tailored to your
+            business needs.
+          </p>
+          <h4>3. Customs Clearance Assistance</h4>
+          <p>
+            Expert support to navigate customs regulations smoothly and ensure
+            timely delivery.
+          </p>
+        </div>
+        <div className="fin-text-container">
+          <h4>4. Warehousing & Distribution</h4>
+          <p>
+            Secure storage and efficient inventory management with flexible
+            distribution options.
+          </p>
           <h4>5. E-commerce Logistics</h4>
           <p>
             Specialized solutions for online sellers including order fulfillment
@@ -99,30 +123,6 @@ function Home() {
           <p>
             Handling of sensitive, oversized, or hazardous shipments with expert
             care.
-          </p>
-        </div>
-        <div className="fin-text-container">
-          <h2>DHL - Dalsey, Hillblom and Lynn</h2>
-          <p>"Your Trusted Partner in Every Shipment"</p>
-          <h4>1. Express Parcel Delivery</h4>
-          <p>
-            Fast and reliable delivery of documents and parcels worldwide with
-            guaranteed transit times.
-          </p>
-          <h4>2. Freight Shipping Solutions</h4>
-          <p>
-            Comprehensive air, sea, and road freight services tailored to your
-            business needs.
-          </p>
-          <h4>3. Customs Clearance Assistance</h4>
-          <p>
-            Expert support to navigate customs regulations smoothly and ensure
-            timely delivery.
-          </p>
-          <h4>4. Warehousing & Distribution</h4>
-          <p>
-            Secure storage and efficient inventory management with flexible
-            distribution options.
           </p>
         </div>
       </div>

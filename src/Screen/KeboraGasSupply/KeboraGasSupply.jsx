@@ -274,13 +274,13 @@ const KeboraGasSupply = () => {
           <p>
             Various cylinder sizes available. Delivery and refill services.{" "}
           </p>
-          <p>
+          {/* <p>
             Important Note: Due to the hazardous nature of acetylene, emphasize
             safety and proper handling in your catalog. By emphasizing safety
             and the unique characteristics of acetylene cylinders, you can
             provide your customers with the necessary information for safe and
             effective use.
-          </p>
+          </p> */}
         </div>
         <div className="gas-text-container">
           <h2>ACTYLENE GAS</h2>
@@ -335,17 +335,6 @@ const KeboraGasSupply = () => {
       <div className="gas-diamond-section">
         <div className="gas-image-container">
           <img src={img9} alt="gas-Kebora Diamond" />
-          <p>Common Uses of Calcium Carbonate:</p>
-          <ul className="gas-Kebora Diamond-ul">
-            <li>Agriculture: It's used to neutralize acidic soils.</li>
-            <li>It provides calcium for plant growth.</li>
-            <li>
-              {" "}
-              Food and Pharmaceutical: It's used as a calcium supplement.
-            </li>
-            <li> It's used as an antacid.</li>
-            <li> It is used in some food processing applications.</li>
-          </ul>
         </div>
         <div className="gas-text-container">
           <h2>CALCIUM CARBONATE</h2>
@@ -364,6 +353,17 @@ const KeboraGasSupply = () => {
             <li>It's a white, odorless powder.</li>
             <li> It's relatively inexpensive and abundant.</li>
             <li>It reacts with acids, producing carbon dioxide.</li>
+          </ul>
+          <h1>Common Uses of Calcium Carbonate:</h1>
+          <ul className="gas-Kebora Diamond-ul">
+            <li>Agriculture: It's used to neutralize acidic soils.</li>
+            <li>It provides calcium for plant growth.</li>
+            <li>
+              {" "}
+              Food and Pharmaceutical: It's used as a calcium supplement.
+            </li>
+            <li> It's used as an antacid.</li>
+            <li> It is used in some food processing applications.</li>
           </ul>
         </div>
       </div>
@@ -437,9 +437,9 @@ const KeboraGasSupply = () => {
           <p>
             <strong>Kebora Trading Company Limited</strong> serves as the
             umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, and financial services. We are
-            committed to excellence, reliability, and fostering strong client
-            relationships across all our operations.​​
+            trading, machinery, gas supply, financial services and restaurant.
+            We are committed to excellence, reliability, and fostering strong
+            client relationships across all our operations.​​
           </p>
           <div className="contact-details">
             <div className="icon-content">

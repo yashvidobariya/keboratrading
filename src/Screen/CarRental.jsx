@@ -123,7 +123,7 @@ const CarRental = () => {
         <div className="fin-text-container">
           <h2 className="font-size">Car Rental</h2>
           <h4>What it does</h4>
-            <p className="car-retnal">
+          <p className="car-retnal">
             A car rental company provides a convenient service for renting
             automobiles for a short period, typically from a few hours to
             several weeks. This allows individuals and businesses to have
@@ -210,9 +210,9 @@ const CarRental = () => {
           <p>
             <strong>Kebora Trading Company Limited</strong> serves as the
             umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, and financial services. We are
-            committed to excellence, reliability, and fostering strong client
-            relationships across all our operations.​​
+            trading, machinery, gas supply, financial services and restaurant.
+            We are committed to excellence, reliability, and fostering strong
+            client relationships across all our operations.​​
           </p>
           <div className="contact-details">
             <div className="icon-content">
@@ -225,8 +225,8 @@ const CarRental = () => {
               <IoCall className="icon-contactus" /> +232 79343434
             </div>
             <div className="icon-content">
-              <IoLocationSharp className="icon-contactus" /> 38 masembi road 555
-              spot koidu
+              <IoLocationSharp className="icon-contactus" /> 38 misingbi road
+              Kono Eastern-kono
             </div>
           </div>
         </div>
