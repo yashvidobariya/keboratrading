@@ -18,9 +18,9 @@ const ContactUs = () => {
     question: "",
   });
 
-  const SERVICE_ID = "service_qe5rac8";
-  const TEMPLATE_ID = "template_0ql30ti";
-  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
+  const SERVICE_ID = "service_k4pffs7";
+  const TEMPLATE_ID = "template_zvh01rn";
+  const PUBLIC_KEY = "w_cDNmD5FUGSeOCE6";
 
   const [errors, setErrors] = useState({});
 
@@ -99,15 +99,15 @@ const ContactUs = () => {
           <p>
             <strong>Kebora Trading Company Limited</strong> serves as the
             umbrella for a diverse portfolio of businesses, including diamond
-            trading, machinery, gas supply, financial services and restaurant. We are
-            committed to excellence, reliability, and fostering strong client
-            relationships across all our operations.​​
+            trading, machinery, gas supply, financial services and restaurant.
+            We are committed to excellence, reliability, and fostering strong
+            client relationships across all our operations.​​
           </p>
           <div className="contact-details">
             <div className="icon-content">
               <IoMail className="icon-contactus" />
               <a href="mailto:keboraoxygen@gmail.com">
-                keboratrading@gmail.com
+                keboratradingin@gmail.com
               </a>
             </div>
             <div className="icon-content">

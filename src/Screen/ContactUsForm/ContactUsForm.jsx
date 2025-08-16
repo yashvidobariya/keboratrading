@@ -17,9 +17,9 @@ const ContactUsForm = () => {
 
   const [errors, setErrors] = useState({});
 
-  const SERVICE_ID = "service_qe5rac8";
-  const TEMPLATE_ID = "template_0ql30ti";
-  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
+  const SERVICE_ID = "service_k4pffs7";
+  const TEMPLATE_ID = "template_zvh01rn";
+  const PUBLIC_KEY = "w_cDNmD5FUGSeOCE6";
 
   const validate = () => {
     const newErrors = {};
@@ -181,7 +181,7 @@ const ContactUsForm = () => {
           </p>
           <p className="flex-contact">
             <IoMailUnreadSharp className="icon-contact-us" />
-            <p> keboratrading@gmail.com</p>
+            <p> keboratradingin@gmail.com</p>
           </p>
         </div>
       </div>

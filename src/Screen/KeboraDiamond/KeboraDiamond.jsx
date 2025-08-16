@@ -18,9 +18,9 @@ const KeboraDiamond = () => {
     question: "",
   });
 
-  const SERVICE_ID = "service_qe5rac8";
-  const TEMPLATE_ID = "template_0ql30ti";
-  const PUBLIC_KEY = "9v80S1FAWFUDLMZgP";
+  const SERVICE_ID = "service_k4pffs7";
+  const TEMPLATE_ID = "template_zvh01rn";
+  const PUBLIC_KEY = "w_cDNmD5FUGSeOCE6";
 
   const [errors, setErrors] = useState({});
 
