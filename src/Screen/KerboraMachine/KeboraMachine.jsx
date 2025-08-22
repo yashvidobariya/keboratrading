@@ -334,7 +334,7 @@ const KeboraMachines = () => {
               <IoCall className="icon-contactus" /> +232 74 23 21 28
             </div>
             <div className="icon-content">
-              <IoLocationSharp className="icon-contactus" /> 338 misingbi road
+              <IoLocationSharp className="icon-contactus" /> 38 misingbi road
               Kono Eastern-kono
             </div>
           </div>
