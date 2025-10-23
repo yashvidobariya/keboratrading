@@ -99,7 +99,10 @@ const KeboraFinance = () => {
         </p>
         <h5> Explore our services:</h5>
         <ul>
-          <li>Mobile Money (AfroMoney & Orange Money)</li>
+           <li>
+            Mobile Money (Afro international And money gram some point similar
+            Money & Orange Money)
+          </li>
           <li>
             {" "}
             International Money Transfers (MoneyGram, Western Union, Ria)
