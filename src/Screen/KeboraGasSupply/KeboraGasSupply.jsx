@@ -178,11 +178,6 @@ const KeboraGasSupply = () => {
             standard medical oxygen regulators and delivery systems.{" "}
           </p>
           <p>
-            D-Type Valve: This refers to a specific type of valve used on the
-            cylinder. It's important to ensure that the valve is compatible with
-            standard medical oxygen regulators and delivery systems.{" "}
-          </p>
-          <p>
             Good Purity/Good Pressure: These are essential qualities for medical
             oxygen. "Good purity" signifies that the oxygen is free from
             contaminants, and "good pressure" ensures that it can be delivered
