@@ -285,7 +285,6 @@ const KeboraMachines = () => {
               Skilled Team – Trained and experienced for safety and precision
             </li>
             <li>Flexible Services – Tailored</li>
-            <h3>Why Choose Kebora Machines?</h3>
             <ol>
               <li>One‑Stop Solution – Rentals and transport in one place</li>
               <li>
